@@ -1,0 +1,4 @@
+Contenido del archivo 2.txt
+Esta es una nueva linea
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel erat at libero consectetur aliquam. Sed et nulla sollicitudin, lobortis eros id, aliquet lacus. Nulla quis libero iaculis quam feugiat rhoncus. Donec a tempor turpis. Donec varius dapibus sem ac cursus. Nullam nec eros in orci auctor aliquam at et velit. Etiam luctus purus vel ipsum lacinia congue non non nisi. Integer in ligula sed felis placerat tincidunt id ut nulla. Praesent tristique et justo mattis auctor. Integer auctor diam et tellus posuere, nec fringilla libero condimentum. Donec consequat accumsan neque sed dapibus. In tempor id erat convallis cursus.
