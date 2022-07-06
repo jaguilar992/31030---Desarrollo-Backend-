@@ -1,0 +1,17 @@
+{
+  "name": "proyecto_calculadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "~2.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
