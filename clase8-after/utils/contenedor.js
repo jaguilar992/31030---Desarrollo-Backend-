@@ -16,7 +16,7 @@ class Contenedor {
     }
 
     _saveAll (data) {
-        const stringData = JSON.stringify(data);
+        const stringData = JSON.stringify(data, null, 2);
         fs.writeFileSync(this.filePath, stringData ,encoding)
     }
     
@@ -54,4 +54,4 @@ class Contenedor {
     }
 }
 
-module.exports = Contenedor
+module.exports = Contenedor // COMMONJS

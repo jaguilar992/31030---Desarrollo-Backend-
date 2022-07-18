@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Subir Archivo</title>
+  <style>
+    h1 {
+      color: blue;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    input {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    form {
+      width: 50%;
+      margin-left: 25%;
+    }
+
+    form .submit {
+      background-color: greenyellow;
+    }
+
+    label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Registro de Usuarios</h1>
+  <form action="/api/personas" enctype="multipart/form-data" method="POST">
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+    <input type="text" name="pais" id="pais" placeholder="Pais">
+    <label for="submit">Foto</label>
+    <input type="file" name="foto" />
+    <input type="submit" value="Subir Archivo" class="submit" />
+  </form>
+</body>
+
+</html>
