@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Antonio",
+    "apellido": "Aguilar",
+    "pais": "Honduras",
+    "id": 1
+  },
+  {
+    "nombre": "Rodrigo",
+    "apellido": "Perez",
+    "pais": "Mexico",
+    "id": 2
+  },
+  {
+    "nombre": "Juan",
+    "apellido": "Lopez",
+    "pais": "Argentina",
+    "id": 3
+  },
+  {
+    "nombre": "Antonio",
+    "apellido": "Aguilar",
+    "pais": "Honduras",
+    "id": 4
+  },
+  {
+    "nombre": "Julio",
+    "apellido": "Martinez",
+    "pais": "Honduras",
+    "id": 5
+  }
+]
