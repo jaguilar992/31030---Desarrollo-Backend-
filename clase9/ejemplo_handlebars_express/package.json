@@ -1,5 +1,5 @@
 {
-  "name": "ejemplo_render",
+  "name": "ejemplo_handlebars_express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
