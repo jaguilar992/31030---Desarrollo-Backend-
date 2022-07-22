@@ -1,21 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <span></span>
+<html>
+    <head></head>
+    <body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
-    <script>
-        const template = Handlebars.compile("<h1>{{nombre}}</h1>")
-        const html = template({nombre: 'coder'}) // Genera HTML
+        <div id="root"></div>
 
-        document.querySelector("span").innerHTML = html;
-
-    </script>
-</body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            // Logica del ejercicio
+            const templateString = `
+                <h1> Datos Personales </h1>
+                <ul>
+                    <li>Nombre: {{nombre}} </li>
+                    <li>Apellido: {{apellido}} </li>
+                    <li>Edad: {{edad}} </li>
+                    <li>Telefono: {{telefono}} </li>
+                    <li>Email: {{email}} </li>
+                </ul>
+                <h2> Comentarios </h2>
+                {{#if comments}}
+                    <ul>
+                        {{#each comments}}
+                            <li> {{this.user}}: {{this.text}} </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            `;
+            const template = Handlebars.compile(templateString);
+            const user = {
+                nombre: "Antonio",
+                apellido: "Aguilar",
+                edad: 30,
+                telefono: "+504 XXXXXXX",
+                email: "jaguilar992@gmail.com",
+                comments: [
+                    {text: "Qué super se ve tu sitio", user: "jlopez"},
+                    {text: "Hola", user: "smorgan"}
+                ]
+            }
+            const html = template(user);
+            document.querySelector("#root").innerHTML = html;
+        </script>
+    </body>
 </html>

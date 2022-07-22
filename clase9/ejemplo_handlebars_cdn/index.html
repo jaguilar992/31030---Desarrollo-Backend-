@@ -11,8 +11,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
     <script>
-        const template = Handlebars.compile("<h1>{{nombre}}</h1>")
-        const html = template({nombre: 'coder'}) // Genera HTML
+        const template = Handlebars.compile("<h1>Bienvenido {{nombre}}</h1> <p>Hola {{nombre}} {{apellido}}</p>")
+        const html = template({nombre: 'Antonio', apellido: 'Aguilar'}) // Genera HTML
 
         document.querySelector("span").innerHTML = html;
 

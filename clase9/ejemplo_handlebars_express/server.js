@@ -9,11 +9,12 @@ const hbs = handlebars.create({
     partialsDir: __dirname + "/views/partials/"
 });
 
-app.engine("hbs", hbs.engine)
+app.use(express.static("public"));
+
+app.engine("hbs", hbs.engine);
 app.set("view engine", "hbs");
 app.set("views", "./views");
 
-app.use(express.static("public"));
 
 fakeApi = () => [
     {name: "Katarina", lane: "midlaner"},
@@ -23,15 +24,18 @@ fakeApi = () => [
     {name: "Bob", lane: "midlaner"},
 ]
 
-const PORT = 8080;
-
 app.get("/", (req, res) => {
     res.render("main", {
         suggestedChamps: fakeApi(),
         listExists: true
     });
+});
+
+app.get("/user", (req, res) => {
+    res.render("user", {nombre: "Antonio", apellido: "Aguilar"})
 })
 
+const PORT = 8080;
 app.listen(PORT, ()=> {
     console.log(`Running on PORT: ${PORT}`);
 })
