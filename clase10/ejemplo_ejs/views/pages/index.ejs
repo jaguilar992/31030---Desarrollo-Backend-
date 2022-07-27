@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include("../partials/head") %>
+</head>
+<body class="container">
+  <header>
+    <%- include("../partials/header", {cabecera: 'Esta es una cabecera'}) %>
+  </header>
+  <main>
+    <div class="jumbotron">
+      <h1>Sitio con EJS</h1>
+      <p>Bienvenido</p>
+      <%= mensaje %>
+    </div>
+
+    <% for (let i in [0,1,2,3,4,5]) { %>
+      <p>Esto es una prueba i: <%= i %></p>
+    <% } %>
+  </main>
+  <%- include("../partials/footer") %>
+</body>
+</html>

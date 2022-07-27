@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio3</title>
+</head>
+<body>
+  <form action="/personas" method="POST">
+    <input type="text" name="nombre" id="nombre" placeholder="nombre">
+    <input type="text" name="apellido" id="apellido" placeholder="apellido">
+    <input type="text" name="edad" id="edad" placeholder="edad">
+    <input type="submit" value="Enviar">
+  </form>
+  
+  <% if (personas.length > 0) {%>
+    <table>
+      <thead>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+      </thead>
+      <tbody>
+        <% personas.forEach(function(persona) { %>
+          <tr>
+            <td><%= persona.nombre %></td>
+            <td><%= persona.apellido %></td>
+            <td><%= persona.edad %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  <% } else { %>
+    <p>No se encontraron datos</p>
+  <% } %>
+</body>
+</html>
