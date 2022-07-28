@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Coderhouse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="ui container">
+      <div class="ui grid">
+        <div class="eight wide column">
+          <div class="ui container">
+            <h1>Mensajes</h1>
+            <div id="posts"></div>
+          </div>
+        </div>
+        <div class="eight wide column">
+          <div class="card">
+            <div class="ui container">
+              <h1>Enviar mensaje</h1>
+              <div class="ui form">
+                <div class="field">
+                  <label>Nombre: </label>
+                  <input type="text" name="nombre" id="nombre" />
+                </div>
+                <div class="field">
+                  <label>Mensaje: </label>
+                  <textarea name="mensaje" id="mensaje"></textarea>
+                </div>
+                <div class="field">
+                  <button class="ui primary button" onclick="enviarMensaje()">
+                    <i class="send icon"></i>
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.socket.io/4.5.0/socket.io.min.js"
+      integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
