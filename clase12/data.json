@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Antonio",
+    "mensaje": "Hola",
+    "socket_id": "kIHDbZzCnHCizdY0AAAF",
+    "likes": 7,
+    "date": 1659480146919,
+    "id": 1
+  },
+  {
+    "nombre": "Antonio",
+    "mensaje": "Adios",
+    "socket_id": "41T_lQv0Dlz-euKkAAAB",
+    "likes": 7,
+    "date": 1659480247286,
+    "id": 2
+  }
+]
