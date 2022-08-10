@@ -6,8 +6,7 @@
 
 // const s:string = "Hola Mundo";
 // s.concat("Hi");
-
-
+import Contenedor, { mifuncion } from "./utils/contenedor.js";
 
 const generateColor = function() : string {
   const red:number = Math.floor(Math.random() * 256);
@@ -16,5 +15,11 @@ const generateColor = function() : string {
   return `rgb(${red}, ${green}, ${blue})`;
 }
 
+mifuncion();
+
 const color:string = generateColor();
 console.log(color);
+
+const c = new Contenedor("./db.json");
+c.save({firstname: "Steve", lastname: "Seagal"});
+console.log(c.getAll());
