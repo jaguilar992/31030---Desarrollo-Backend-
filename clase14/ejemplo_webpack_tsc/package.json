@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
-    "start": "node ."
+    "start": "node .",
+    "dev": "npm run watch && node ."
   },
   "keywords": [],
   "author": "",
