@@ -1,0 +1,18 @@
+{
+  "name": "ejemplo_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "webpack ./mensaje1.js ./mensaje2.js ./mensaje3.js --mode=production",
+    "watch": "webpack ./mensaje1.js ./mensaje2.js ./mensaje3.js --mode=development -w",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
