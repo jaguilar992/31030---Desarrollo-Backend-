@@ -81,7 +81,7 @@ WHERE id = 1;
 DELETE FROM usuarios WHERE id = 1;
 
 
--- Agregar una nueva columna a la base datos
+-- Agregar una nueva columna a la tabla usuarios
 ALTER TABLE usuarios
 ADD COLUMN edad INT;
 
