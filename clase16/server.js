@@ -14,6 +14,7 @@ const Contenedor = require('./utils/contenedor');
 const c = new Contenedor("./db.json");
 
 app.use(express.static('public'));
+// Router definido en routes/person.js
 app.use("/person", personRoutes);
 
 socketServer.on('connection', (socket) => {

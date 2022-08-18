@@ -3,17 +3,20 @@ const Contenedor = require('../utils/contenedor');
 const router = Router();
 const filename = "db.json";
 
+//GET localhost/person
 router.get('/', (req, res) => {
     const c = new Contenedor(filename);
     res.send(c.getAll());
 });
 
+//GET localhost/person/:id
 router.get('/:id', (req, res) => {
     const c = new Contenedor(filename);
     const id = req.params.id;
     res.send(c.getById(id));
 });
 
+// POST localhost/person
 router.post('/', (req, res) => {
     const body = req.body;
     const c = new Contenedor(filename);
@@ -29,6 +32,7 @@ router.post('/', (req, res) => {
     }
 });
 
+// PUT localhost/person/:id
 router.put('/:id', (req, res) => {
     const body = req.body;
     const id = req.params.id;
@@ -46,6 +50,7 @@ router.put('/:id', (req, res) => {
     }
 });
 
+// DELETE localhost/person/:id
 router.delete('/:id', (req, res) => {
     const id = req.params.id;
     const c = new Contenedor(filename);
