@@ -1,0 +1,34 @@
+-- Crear base de datos
+CREATE DATABASE mibase;
+USE mibase;
+-- Crear la tabla
+CREATE TABLE usuarios (
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(255) NOT NULL ,
+    apellido VARCHAR(255) NOT NULL,
+    edad INT UNSIGNED NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
+-- insert registros
+INSERT INTO usuarios (nombre, apellido, edad, email)
+VALUES
+('Juan', 'Perez', 23, 'jperez@gmail.com'),
+('Pedro', 'Lopez', 30, 'plopez@gmail.com'),
+('Juana', 'Suarez', 15, 'jsuarez@gmail.com');
+-- visualizar la data
+SELECT * FROM usuarios;
+
+-- Codigo Mongo
+-- ---------------------------------------------------
+-- Preparar virtualmente la base de datos en Mongo
+use mibase;
+-- Crear la colección no es necesario
+-- insert de los documentos
+db.usuarios.insertMany([
+    {nombre: "Juan", apellido: "Perez", edad: 23, email: "jperez@gmail.com"},
+    {nombre: 'Pedro', apellido: 'Lopez', edad: 30, email: "plopez@gmail.com"},
+    {nombre: 'Juana', apellido: 'Suarez', edad: 15, email: 'jsuarez@gmail.com'}
+]);
+
+-- visualizar la data
+db.usuarios.find();
