@@ -1,0 +1,6 @@
+// Comando para guardar la carpeta generada por mongo dentro del contenedor en una ruta accesible 
+// al sistema operativo Host
+
+docker run -d --name db -p 27017:27017 -v ~/mongo/data:/data/db mongo:latest
+
+// Las bases de datos y demas quedan en la ruta $HOME/mongo 
