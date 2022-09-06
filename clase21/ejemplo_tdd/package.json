@@ -1,0 +1,15 @@
+{
+  "name": "ejemplo_tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "division.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.2"
+  }
+}
