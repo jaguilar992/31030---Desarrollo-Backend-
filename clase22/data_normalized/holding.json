@@ -1,0 +1,464 @@
+{
+  "entities": {
+    "employees": {
+      "1": {
+        "id": 1,
+        "firstName": "Granville",
+        "lastName": "Sporer",
+        "ssn": "D6FB07A66",
+        "address": "2950 Walter Ridge",
+        "phone": "+1-383-381-227"
+      },
+      "2": {
+        "id": 2,
+        "firstName": "Jillian",
+        "lastName": "Altenwerth",
+        "ssn": "BAF4BB1C8",
+        "address": "1139 Everette Drive",
+        "phone": "+1-873-184-066"
+      },
+      "3": {
+        "id": 3,
+        "firstName": "Fannie",
+        "lastName": "Kreiger",
+        "ssn": "F67BE6F8D",
+        "address": "44337 Trycia Keys",
+        "phone": "+1-862-310-114"
+      },
+      "4": {
+        "id": 4,
+        "firstName": "Lawrence",
+        "lastName": "Kunze",
+        "ssn": "3AAA49A6B",
+        "address": "500 Eda Street",
+        "phone": "+1-224-015-725"
+      },
+      "5": {
+        "id": 5,
+        "firstName": "Vena",
+        "lastName": "VonRueden",
+        "ssn": "CEEE27A98",
+        "address": "4119 Ratke Stream",
+        "phone": "+1-292-288-757"
+      },
+      "6": {
+        "id": 6,
+        "firstName": "Maximilian",
+        "lastName": "Olson",
+        "ssn": "4A08C7EE8",
+        "address": "497 Lang Camp",
+        "phone": "+1-019-747-438"
+      },
+      "7": {
+        "id": 7,
+        "firstName": "Callie",
+        "lastName": "Gulgowski",
+        "ssn": "045C3AC4E",
+        "address": "294 Larkin Route",
+        "phone": "+1-796-850-209"
+      },
+      "8": {
+        "id": 8,
+        "firstName": "Eino",
+        "lastName": "Steuber",
+        "ssn": "D414832CC",
+        "address": "578 Valentin Prairie",
+        "phone": "+1-029-654-923"
+      },
+      "9": {
+        "id": 9,
+        "firstName": "Ernie",
+        "lastName": "Gibson",
+        "ssn": "0EDD7DFEA",
+        "address": "7819 Marie View",
+        "phone": "+1-711-375-948"
+      },
+      "10": {
+        "id": 10,
+        "firstName": "Sheila",
+        "lastName": "Abshire",
+        "ssn": "0D7FDFA1D",
+        "address": "0706 Klocko Inlet",
+        "phone": "+1-616-398-524"
+      }
+    },
+    "company": {
+      "565": {
+        "id": 565,
+        "company_name": "Miller, Thompson and Braun",
+        "CEO": 1,
+        "manager": 3,
+        "employees": [
+          10,
+          2,
+          4,
+          5,
+          8,
+          7,
+          1,
+          3,
+          6,
+          9
+        ]
+      },
+      "1333": {
+        "id": 1333,
+        "company_name": "Durgan, Jaskolski and Wintheiser",
+        "CEO": 7,
+        "manager": 1,
+        "employees": [
+          5,
+          2,
+          7,
+          9
+        ]
+      },
+      "1712": {
+        "id": 1712,
+        "company_name": "Bauch, Tillman and Conroy",
+        "CEO": 6,
+        "manager": 4,
+        "employees": [
+          1,
+          9,
+          4,
+          8,
+          10,
+          3,
+          5,
+          6,
+          7,
+          2
+        ]
+      },
+      "2737": {
+        "id": 2737,
+        "company_name": "Williamson Group",
+        "CEO": 1,
+        "manager": 9,
+        "employees": [
+          4,
+          1,
+          8,
+          2,
+          7,
+          3,
+          6,
+          5,
+          10,
+          9
+        ]
+      },
+      "3099": {
+        "id": 3099,
+        "company_name": "Friesen and Sons",
+        "CEO": 2,
+        "manager": 10,
+        "employees": [
+          7,
+          5,
+          2,
+          6,
+          3,
+          4,
+          8,
+          9,
+          1,
+          10
+        ]
+      },
+      "3189": {
+        "id": 3189,
+        "company_name": "Lubowitz Inc",
+        "CEO": 5,
+        "manager": 6,
+        "employees": [
+          6,
+          8,
+          2,
+          7,
+          9,
+          5,
+          4,
+          10,
+          3,
+          1
+        ]
+      },
+      "3717": {
+        "id": 3717,
+        "company_name": "Hickle, Blick and Cummings",
+        "CEO": 9,
+        "manager": 2,
+        "employees": [
+          4,
+          8,
+          9,
+          10,
+          5,
+          3,
+          2,
+          7,
+          1,
+          6
+        ]
+      },
+      "3948": {
+        "id": 3948,
+        "company_name": "Wilkinson - Carter",
+        "CEO": 3,
+        "manager": 5,
+        "employees": [
+          8,
+          2,
+          5,
+          1,
+          4,
+          9,
+          10,
+          7,
+          6,
+          3
+        ]
+      },
+      "4095": {
+        "id": 4095,
+        "company_name": "Sauer - Fahey",
+        "CEO": 7,
+        "manager": 9,
+        "employees": [
+          5,
+          6,
+          7,
+          2,
+          4,
+          3,
+          10,
+          9,
+          1,
+          8
+        ]
+      },
+      "4950": {
+        "id": 4950,
+        "company_name": "Dooley - Roob",
+        "CEO": 4,
+        "manager": 10,
+        "employees": [
+          7,
+          1,
+          9,
+          10,
+          3,
+          5,
+          8,
+          4,
+          2,
+          6
+        ]
+      },
+      "5283": {
+        "id": 5283,
+        "company_name": "Johns, Schumm and Rowe",
+        "CEO": 2,
+        "manager": 3,
+        "employees": [
+          3,
+          4,
+          6,
+          10,
+          9,
+          2,
+          5,
+          8,
+          7,
+          1
+        ]
+      },
+      "5771": {
+        "id": 5771,
+        "company_name": "Klocko, Fahey and O'Conner",
+        "CEO": 3,
+        "manager": 9,
+        "employees": [
+          3,
+          5,
+          2,
+          8,
+          6,
+          10,
+          1,
+          4,
+          7
+        ]
+      },
+      "5828": {
+        "id": 5828,
+        "company_name": "Raynor - Larson",
+        "CEO": 5,
+        "manager": 2,
+        "employees": [
+          6,
+          3,
+          5,
+          4,
+          1,
+          9,
+          8,
+          2,
+          10,
+          7
+        ]
+      },
+      "6193": {
+        "id": 6193,
+        "company_name": "Bins - Jast",
+        "CEO": 4,
+        "manager": 8,
+        "employees": [
+          2,
+          9,
+          7,
+          10,
+          4,
+          6,
+          3,
+          5,
+          8,
+          1
+        ]
+      },
+      "6293": {
+        "id": 6293,
+        "company_name": "Hammes - Kutch",
+        "CEO": 9,
+        "manager": 6,
+        "employees": [
+          5,
+          3,
+          6,
+          10,
+          1,
+          4,
+          7,
+          9,
+          2,
+          8
+        ]
+      },
+      "7344": {
+        "id": 7344,
+        "company_name": "McCullough, Friesen and McDermott",
+        "CEO": 7,
+        "manager": 2,
+        "employees": [
+          1,
+          10,
+          3,
+          2,
+          6,
+          7,
+          8,
+          9,
+          4,
+          5
+        ]
+      },
+      "7691": {
+        "id": 7691,
+        "company_name": "Mann and Sons",
+        "CEO": 4,
+        "manager": 2,
+        "employees": [
+          3,
+          9,
+          2,
+          4,
+          10,
+          7,
+          8,
+          1,
+          5,
+          6
+        ]
+      },
+      "8060": {
+        "id": 8060,
+        "company_name": "Tremblay - Marvin",
+        "CEO": 8,
+        "manager": 10,
+        "employees": [
+          6,
+          5,
+          1,
+          3,
+          2,
+          4,
+          10,
+          9,
+          8,
+          7
+        ]
+      },
+      "9138": {
+        "id": 9138,
+        "company_name": "Swift, Balistreri and Kunde",
+        "CEO": 5,
+        "manager": 10,
+        "employees": [
+          2,
+          8,
+          4,
+          6,
+          1,
+          9,
+          5
+        ]
+      },
+      "9374": {
+        "id": 9374,
+        "company_name": "Greenfelder, McLaughlin and Pouros",
+        "CEO": 10,
+        "manager": 4,
+        "employees": [
+          9,
+          6,
+          10,
+          3,
+          4,
+          1,
+          8,
+          5
+        ]
+      }
+    },
+    "holding": {
+      "3997": {
+        "id": 3997,
+        "companies": [
+          5283,
+          3189,
+          1712,
+          4950,
+          5828,
+          9374,
+          565,
+          4095,
+          1333,
+          3948,
+          3099,
+          3717,
+          8060,
+          9138,
+          5771,
+          2737,
+          7344,
+          7691,
+          6293,
+          6193
+        ]
+      }
+    }
+  },
+  "result": 3997
+}

@@ -1,0 +1,806 @@
+{
+  "id": 9767,
+  "company_name": "Kerluke, Douglas and Reynolds",
+  "CEO": {
+    "id": 1,
+    "firstName": "Fannie",
+    "lastName": "Hauck",
+    "ssn": "0BD3CFFA3",
+    "address": "5708 Koss Ville",
+    "phone": "+1-922-378-777"
+  },
+  "manager": {
+    "id": 2,
+    "firstName": "Jennie",
+    "lastName": "Blanda",
+    "ssn": "C6E2BEBBF",
+    "address": "320 Vicenta Ramp",
+    "phone": "+1-853-797-963"
+  },
+  "employees": [
+    {
+      "id": 3,
+      "firstName": "Zella",
+      "lastName": "McDermott",
+      "ssn": "0DBB4B942",
+      "address": "213 Carlo Crossing",
+      "phone": "+1-132-780-469"
+    },
+    {
+      "id": 4,
+      "firstName": "Kenton",
+      "lastName": "Schamberger",
+      "ssn": "C026420AC",
+      "address": "38784 Ubaldo Alley",
+      "phone": "+1-479-397-841"
+    },
+    {
+      "id": 5,
+      "firstName": "Maritza",
+      "lastName": "Weimann",
+      "ssn": "A6BD6C5AF",
+      "address": "8134 Keanu Cliff",
+      "phone": "+1-503-976-457"
+    },
+    {
+      "id": 6,
+      "firstName": "Kristy",
+      "lastName": "Pollich",
+      "ssn": "BF3CFCC17",
+      "address": "59079 Altenwerth Wall",
+      "phone": "+1-051-908-825"
+    },
+    {
+      "id": 7,
+      "firstName": "Alanis",
+      "lastName": "Hettinger",
+      "ssn": "91698D27C",
+      "address": "5354 Justine Village",
+      "phone": "+1-947-969-994"
+    },
+    {
+      "id": 8,
+      "firstName": "Daphne",
+      "lastName": "Haag",
+      "ssn": "B8D8AB8DE",
+      "address": "596 Erdman Skyway",
+      "phone": "+1-598-578-623"
+    },
+    {
+      "id": 9,
+      "firstName": "Garrett",
+      "lastName": "Mante",
+      "ssn": "8DFEDADFE",
+      "address": "003 Cody Orchard",
+      "phone": "+1-157-448-633"
+    },
+    {
+      "id": 10,
+      "firstName": "Colleen",
+      "lastName": "Howell",
+      "ssn": "A3C4885FF",
+      "address": "81120 Guadalupe Parkways",
+      "phone": "+1-242-671-408"
+    },
+    {
+      "id": 11,
+      "firstName": "Cordie",
+      "lastName": "Casper",
+      "ssn": "ABFC7E632",
+      "address": "38970 Karianne Pines",
+      "phone": "+1-954-267-776"
+    },
+    {
+      "id": 12,
+      "firstName": "Gerson",
+      "lastName": "Mertz",
+      "ssn": "A8B76A875",
+      "address": "4734 Travon Ranch",
+      "phone": "+1-541-261-792"
+    },
+    {
+      "id": 13,
+      "firstName": "Syble",
+      "lastName": "Hirthe",
+      "ssn": "FDBCF5BEC",
+      "address": "095 Catalina Port",
+      "phone": "+1-566-317-973"
+    },
+    {
+      "id": 14,
+      "firstName": "Bret",
+      "lastName": "Koss",
+      "ssn": "A2BAD03BD",
+      "address": "6385 Alessandra Underpass",
+      "phone": "+1-661-536-522"
+    },
+    {
+      "id": 15,
+      "firstName": "Lamar",
+      "lastName": "Gibson",
+      "ssn": "0C3F28FFE",
+      "address": "535 Neoma Estates",
+      "phone": "+1-753-183-202"
+    },
+    {
+      "id": 16,
+      "firstName": "Tracey",
+      "lastName": "Kreiger",
+      "ssn": "8EA74E7F7",
+      "address": "0731 Weimann Place",
+      "phone": "+1-018-698-703"
+    },
+    {
+      "id": 17,
+      "firstName": "Corine",
+      "lastName": "Zulauf",
+      "ssn": "FB43A52B6",
+      "address": "19058 Daugherty Pike",
+      "phone": "+1-531-740-725"
+    },
+    {
+      "id": 18,
+      "firstName": "Darby",
+      "lastName": "Franecki",
+      "ssn": "FAA4CE15E",
+      "address": "4526 Fred Forges",
+      "phone": "+1-434-528-998"
+    },
+    {
+      "id": 19,
+      "firstName": "Kara",
+      "lastName": "Lesch",
+      "ssn": "50F9A18E4",
+      "address": "6506 Kobe Estate",
+      "phone": "+1-457-527-141"
+    },
+    {
+      "id": 20,
+      "firstName": "Thora",
+      "lastName": "McCullough",
+      "ssn": "DEAB6DF4D",
+      "address": "41273 Wunsch Plains",
+      "phone": "+1-809-792-736"
+    },
+    {
+      "id": 21,
+      "firstName": "Elinore",
+      "lastName": "Schowalter",
+      "ssn": "B1D27E8DF",
+      "address": "64771 Conn Trail",
+      "phone": "+1-586-947-422"
+    },
+    {
+      "id": 22,
+      "firstName": "Douglas",
+      "lastName": "Leuschke",
+      "ssn": "284CDF02D",
+      "address": "190 Jackson Fords",
+      "phone": "+1-087-357-834"
+    },
+    {
+      "id": 23,
+      "firstName": "Ulises",
+      "lastName": "Conroy",
+      "ssn": "0A56633E6",
+      "address": "965 Koelpin Points",
+      "phone": "+1-628-650-806"
+    },
+    {
+      "id": 24,
+      "firstName": "Kathleen",
+      "lastName": "Simonis",
+      "ssn": "2CA0CFC8E",
+      "address": "8848 Lilliana Rapids",
+      "phone": "+1-620-794-874"
+    },
+    {
+      "id": 25,
+      "firstName": "Allene",
+      "lastName": "Schuster",
+      "ssn": "F85E7BAD3",
+      "address": "909 Maximo Ramp",
+      "phone": "+1-629-074-488"
+    },
+    {
+      "id": 26,
+      "firstName": "Albertha",
+      "lastName": "Runolfsson",
+      "ssn": "CD4BAEC41",
+      "address": "135 Marvin Isle",
+      "phone": "+1-548-514-659"
+    },
+    {
+      "id": 27,
+      "firstName": "Nelson",
+      "lastName": "Leannon",
+      "ssn": "0EFFC80F2",
+      "address": "2092 Champlin Groves",
+      "phone": "+1-736-875-034"
+    },
+    {
+      "id": 28,
+      "firstName": "Jena",
+      "lastName": "Kozey",
+      "ssn": "78D61AC6F",
+      "address": "8111 Jennings Forges",
+      "phone": "+1-214-111-866"
+    },
+    {
+      "id": 29,
+      "firstName": "Ryleigh",
+      "lastName": "Ernser",
+      "ssn": "377180A2C",
+      "address": "2448 Art Stravenue",
+      "phone": "+1-459-202-287"
+    },
+    {
+      "id": 30,
+      "firstName": "Jonathan",
+      "lastName": "Langworth",
+      "ssn": "847022A70",
+      "address": "52717 Kling Point",
+      "phone": "+1-912-126-667"
+    },
+    {
+      "id": 31,
+      "firstName": "Cody",
+      "lastName": "Doyle",
+      "ssn": "77C7F0777",
+      "address": "18095 Rolfson Neck",
+      "phone": "+1-308-502-366"
+    },
+    {
+      "id": 32,
+      "firstName": "Abdul",
+      "lastName": "Collins",
+      "ssn": "FC7270C70",
+      "address": "9200 Rashad Village",
+      "phone": "+1-106-142-689"
+    },
+    {
+      "id": 33,
+      "firstName": "General",
+      "lastName": "Swift",
+      "ssn": "FCFD962DE",
+      "address": "898 Abel Roads",
+      "phone": "+1-539-920-363"
+    },
+    {
+      "id": 34,
+      "firstName": "Candace",
+      "lastName": "Casper",
+      "ssn": "5DD3AFAA6",
+      "address": "25459 Kraig Groves",
+      "phone": "+1-266-168-807"
+    },
+    {
+      "id": 35,
+      "firstName": "Tiara",
+      "lastName": "Schneider",
+      "ssn": "D2C6EBE68",
+      "address": "30151 Jalyn Wall",
+      "phone": "+1-118-142-428"
+    },
+    {
+      "id": 36,
+      "firstName": "Peggie",
+      "lastName": "Rogahn",
+      "ssn": "21F9CB2FA",
+      "address": "56132 Reichel Locks",
+      "phone": "+1-681-347-654"
+    },
+    {
+      "id": 37,
+      "firstName": "Santos",
+      "lastName": "Heller",
+      "ssn": "AF8A0EEDD",
+      "address": "36937 Rico Avenue",
+      "phone": "+1-599-089-479"
+    },
+    {
+      "id": 38,
+      "firstName": "Rosella",
+      "lastName": "Vandervort",
+      "ssn": "56E33BAE5",
+      "address": "17252 Josianne Row",
+      "phone": "+1-927-025-729"
+    },
+    {
+      "id": 39,
+      "firstName": "Holly",
+      "lastName": "Gorczany",
+      "ssn": "D4DDCAFDA",
+      "address": "34670 Marty Gateway",
+      "phone": "+1-606-633-792"
+    },
+    {
+      "id": 40,
+      "firstName": "Bridgette",
+      "lastName": "Carroll",
+      "ssn": "7B5FCFADC",
+      "address": "544 Loyal Square",
+      "phone": "+1-102-771-942"
+    },
+    {
+      "id": 41,
+      "firstName": "Abelardo",
+      "lastName": "Ankunding",
+      "ssn": "DFEADBC90",
+      "address": "16765 Schmeler Wall",
+      "phone": "+1-000-568-422"
+    },
+    {
+      "id": 42,
+      "firstName": "Rodrigo",
+      "lastName": "Purdy",
+      "ssn": "9AEB068BC",
+      "address": "5705 Macey Wells",
+      "phone": "+1-570-767-479"
+    },
+    {
+      "id": 43,
+      "firstName": "Andres",
+      "lastName": "Anderson",
+      "ssn": "B9CCCD48F",
+      "address": "7458 Swaniawski Prairie",
+      "phone": "+1-443-353-096"
+    },
+    {
+      "id": 44,
+      "firstName": "Bobbie",
+      "lastName": "Dicki",
+      "ssn": "073A79CC1",
+      "address": "665 Polly Canyon",
+      "phone": "+1-536-536-845"
+    },
+    {
+      "id": 45,
+      "firstName": "Darius",
+      "lastName": "Schumm",
+      "ssn": "4728C33BC",
+      "address": "90007 Phoebe Plain",
+      "phone": "+1-526-796-253"
+    },
+    {
+      "id": 46,
+      "firstName": "Abe",
+      "lastName": "Ward",
+      "ssn": "B3529D428",
+      "address": "286 Gutmann Islands",
+      "phone": "+1-875-877-332"
+    },
+    {
+      "id": 47,
+      "firstName": "Zoey",
+      "lastName": "Kreiger",
+      "ssn": "D44BF9AB0",
+      "address": "2453 O'Conner Corners",
+      "phone": "+1-041-820-955"
+    },
+    {
+      "id": 48,
+      "firstName": "Deshawn",
+      "lastName": "Wiegand",
+      "ssn": "53FABEC8B",
+      "address": "7589 Katharina Hollow",
+      "phone": "+1-821-764-138"
+    },
+    {
+      "id": 49,
+      "firstName": "Geovany",
+      "lastName": "Welch",
+      "ssn": "30AE87BF8",
+      "address": "17293 Esteban Valley",
+      "phone": "+1-291-314-447"
+    },
+    {
+      "id": 50,
+      "firstName": "Presley",
+      "lastName": "Herman",
+      "ssn": "FDEBCA9F6",
+      "address": "44745 Feest Shoals",
+      "phone": "+1-785-195-117"
+    },
+    {
+      "id": 51,
+      "firstName": "Magnolia",
+      "lastName": "Ruecker",
+      "ssn": "E4A9D99F2",
+      "address": "13067 Darron Valleys",
+      "phone": "+1-984-946-643"
+    },
+    {
+      "id": 52,
+      "firstName": "Theodore",
+      "lastName": "Haley",
+      "ssn": "E0F512EA2",
+      "address": "629 Wiegand Port",
+      "phone": "+1-993-428-687"
+    },
+    {
+      "id": 53,
+      "firstName": "Vivienne",
+      "lastName": "O'Kon",
+      "ssn": "AD7AAEABD",
+      "address": "183 Walker Key",
+      "phone": "+1-341-801-113"
+    },
+    {
+      "id": 54,
+      "firstName": "Kristina",
+      "lastName": "West",
+      "ssn": "AE288411A",
+      "address": "2319 Renner Flats",
+      "phone": "+1-181-311-975"
+    },
+    {
+      "id": 55,
+      "firstName": "Hadley",
+      "lastName": "Willms",
+      "ssn": "9AFB76B8F",
+      "address": "6368 Dicki Route",
+      "phone": "+1-982-818-841"
+    },
+    {
+      "id": 56,
+      "firstName": "Brooks",
+      "lastName": "Kunze",
+      "ssn": "EAC96D2AF",
+      "address": "2335 Christiansen Villages",
+      "phone": "+1-735-626-955"
+    },
+    {
+      "id": 57,
+      "firstName": "Kristin",
+      "lastName": "Gottlieb",
+      "ssn": "E6D3EEFCB",
+      "address": "026 Rowe Cliffs",
+      "phone": "+1-618-398-165"
+    },
+    {
+      "id": 58,
+      "firstName": "Milo",
+      "lastName": "Hoeger",
+      "ssn": "EBDDB8F97",
+      "address": "4169 Zora Brook",
+      "phone": "+1-058-350-074"
+    },
+    {
+      "id": 59,
+      "firstName": "Mariela",
+      "lastName": "Roberts",
+      "ssn": "9BBFDF3BC",
+      "address": "27851 Llewellyn Square",
+      "phone": "+1-796-172-307"
+    },
+    {
+      "id": 60,
+      "firstName": "Idell",
+      "lastName": "Dare",
+      "ssn": "6FBEA21ED",
+      "address": "55282 Berge Village",
+      "phone": "+1-252-340-129"
+    },
+    {
+      "id": 61,
+      "firstName": "Arvel",
+      "lastName": "Rath",
+      "ssn": "26507B926",
+      "address": "9602 Hane Branch",
+      "phone": "+1-811-062-717"
+    },
+    {
+      "id": 62,
+      "firstName": "Jade",
+      "lastName": "Haley",
+      "ssn": "7693C9ADD",
+      "address": "921 Freida Center",
+      "phone": "+1-401-905-371"
+    },
+    {
+      "id": 63,
+      "firstName": "Joe",
+      "lastName": "Lueilwitz",
+      "ssn": "B0BF5ED8C",
+      "address": "95306 Hailey Causeway",
+      "phone": "+1-945-506-378"
+    },
+    {
+      "id": 64,
+      "firstName": "Isabelle",
+      "lastName": "Murphy",
+      "ssn": "ACCE456BC",
+      "address": "4807 Preston Forest",
+      "phone": "+1-521-230-870"
+    },
+    {
+      "id": 65,
+      "firstName": "Elias",
+      "lastName": "Ruecker",
+      "ssn": "BC7A56CCF",
+      "address": "67113 Kulas Radial",
+      "phone": "+1-495-159-884"
+    },
+    {
+      "id": 66,
+      "firstName": "Michael",
+      "lastName": "Toy",
+      "ssn": "3210AB5AA",
+      "address": "387 Cole Mountains",
+      "phone": "+1-636-609-651"
+    },
+    {
+      "id": 67,
+      "firstName": "Esmeralda",
+      "lastName": "Yost",
+      "ssn": "3D3D9CFFC",
+      "address": "343 Schumm Mount",
+      "phone": "+1-448-243-714"
+    },
+    {
+      "id": 68,
+      "firstName": "Monserrate",
+      "lastName": "Oberbrunner",
+      "ssn": "94E3D1BA7",
+      "address": "17220 Keebler Circle",
+      "phone": "+1-042-131-327"
+    },
+    {
+      "id": 69,
+      "firstName": "Esther",
+      "lastName": "Mayert",
+      "ssn": "95844E3B6",
+      "address": "03650 Sauer Pine",
+      "phone": "+1-003-065-010"
+    },
+    {
+      "id": 70,
+      "firstName": "General",
+      "lastName": "Mayert",
+      "ssn": "FFAC68ABB",
+      "address": "2040 Buckridge Islands",
+      "phone": "+1-292-742-029"
+    },
+    {
+      "id": 71,
+      "firstName": "Mariela",
+      "lastName": "Schaefer",
+      "ssn": "429D8B4B2",
+      "address": "145 Gutkowski Springs",
+      "phone": "+1-368-050-803"
+    },
+    {
+      "id": 72,
+      "firstName": "Zora",
+      "lastName": "Heidenreich",
+      "ssn": "4BBCBF41A",
+      "address": "91047 Pedro Squares",
+      "phone": "+1-837-042-437"
+    },
+    {
+      "id": 73,
+      "firstName": "Elnora",
+      "lastName": "Bosco",
+      "ssn": "48018FB1D",
+      "address": "6668 Shirley Park",
+      "phone": "+1-008-556-853"
+    },
+    {
+      "id": 74,
+      "firstName": "Meagan",
+      "lastName": "Metz",
+      "ssn": "23ECE7082",
+      "address": "21029 Waters Pines",
+      "phone": "+1-075-484-356"
+    },
+    {
+      "id": 75,
+      "firstName": "Henri",
+      "lastName": "White",
+      "ssn": "FA08DF8AE",
+      "address": "977 Stella Highway",
+      "phone": "+1-018-001-950"
+    },
+    {
+      "id": 76,
+      "firstName": "Loren",
+      "lastName": "Paucek",
+      "ssn": "86DF1C379",
+      "address": "9140 Ettie Burgs",
+      "phone": "+1-453-081-711"
+    },
+    {
+      "id": 77,
+      "firstName": "Rita",
+      "lastName": "Cronin",
+      "ssn": "7BC38CFF6",
+      "address": "8346 Natalia Place",
+      "phone": "+1-993-399-225"
+    },
+    {
+      "id": 78,
+      "firstName": "Taurean",
+      "lastName": "Bartoletti",
+      "ssn": "60F69B17E",
+      "address": "73317 Koelpin Valleys",
+      "phone": "+1-427-706-487"
+    },
+    {
+      "id": 79,
+      "firstName": "Jayson",
+      "lastName": "Kiehn",
+      "ssn": "EDA80CFC5",
+      "address": "73829 Greenfelder Lights",
+      "phone": "+1-152-591-634"
+    },
+    {
+      "id": 80,
+      "firstName": "Darrion",
+      "lastName": "VonRueden",
+      "ssn": "F39997EAE",
+      "address": "4851 Bode Glens",
+      "phone": "+1-186-000-037"
+    },
+    {
+      "id": 81,
+      "firstName": "Patsy",
+      "lastName": "Feest",
+      "ssn": "775B5D3DC",
+      "address": "183 Misael Spring",
+      "phone": "+1-470-713-624"
+    },
+    {
+      "id": 82,
+      "firstName": "Evert",
+      "lastName": "Parker",
+      "ssn": "ACAA13D6A",
+      "address": "566 Bettie Underpass",
+      "phone": "+1-976-558-797"
+    },
+    {
+      "id": 83,
+      "firstName": "Nels",
+      "lastName": "Ward",
+      "ssn": "7082656EF",
+      "address": "56096 Stefan Pines",
+      "phone": "+1-072-919-310"
+    },
+    {
+      "id": 84,
+      "firstName": "Dedrick",
+      "lastName": "West",
+      "ssn": "A5C34A0F7",
+      "address": "205 Bashirian Street",
+      "phone": "+1-397-658-994"
+    },
+    {
+      "id": 85,
+      "firstName": "Paolo",
+      "lastName": "Bailey",
+      "ssn": "E963BBF1A",
+      "address": "9572 Rosenbaum Spurs",
+      "phone": "+1-936-615-507"
+    },
+    {
+      "id": 86,
+      "firstName": "Toni",
+      "lastName": "Hoppe",
+      "ssn": "CFBCC8CF3",
+      "address": "921 Edgardo Brooks",
+      "phone": "+1-623-283-821"
+    },
+    {
+      "id": 87,
+      "firstName": "Hailey",
+      "lastName": "Rowe",
+      "ssn": "ECCC50C9C",
+      "address": "63561 Zieme Point",
+      "phone": "+1-033-483-349"
+    },
+    {
+      "id": 88,
+      "firstName": "Alaina",
+      "lastName": "Johnson",
+      "ssn": "C9BF3E30D",
+      "address": "50895 Kemmer Plain",
+      "phone": "+1-186-578-212"
+    },
+    {
+      "id": 89,
+      "firstName": "Jeff",
+      "lastName": "Nicolas",
+      "ssn": "9AE414269",
+      "address": "72430 Katelyn Squares",
+      "phone": "+1-394-167-868"
+    },
+    {
+      "id": 90,
+      "firstName": "Kailyn",
+      "lastName": "Moore",
+      "ssn": "5FEC106DE",
+      "address": "47197 Faustino Island",
+      "phone": "+1-689-679-879"
+    },
+    {
+      "id": 91,
+      "firstName": "Leanna",
+      "lastName": "Hettinger",
+      "ssn": "D9B8CBC04",
+      "address": "1444 Alicia Crossroad",
+      "phone": "+1-918-913-215"
+    },
+    {
+      "id": 92,
+      "firstName": "Johnathon",
+      "lastName": "Hyatt",
+      "ssn": "C66CD2CFC",
+      "address": "059 Barney Island",
+      "phone": "+1-478-425-756"
+    },
+    {
+      "id": 93,
+      "firstName": "Richie",
+      "lastName": "Bashirian",
+      "ssn": "A23CC80EB",
+      "address": "445 Lenna Hollow",
+      "phone": "+1-186-331-753"
+    },
+    {
+      "id": 94,
+      "firstName": "Brenda",
+      "lastName": "Mayer",
+      "ssn": "8F8CBDB7F",
+      "address": "87015 Aurelie Center",
+      "phone": "+1-103-195-917"
+    },
+    {
+      "id": 95,
+      "firstName": "Reyes",
+      "lastName": "Reichert",
+      "ssn": "F6FECAC44",
+      "address": "946 Tommie Spur",
+      "phone": "+1-478-474-208"
+    },
+    {
+      "id": 96,
+      "firstName": "Sim",
+      "lastName": "Lebsack",
+      "ssn": "EAA345CC2",
+      "address": "4770 Tristin Loaf",
+      "phone": "+1-268-537-234"
+    },
+    {
+      "id": 97,
+      "firstName": "Adelia",
+      "lastName": "Kilback",
+      "ssn": "ABADA1FAD",
+      "address": "1981 Jones Station",
+      "phone": "+1-061-353-603"
+    },
+    {
+      "id": 98,
+      "firstName": "Stacey",
+      "lastName": "Mertz",
+      "ssn": "5B2B6280E",
+      "address": "914 Tyree Fall",
+      "phone": "+1-997-226-249"
+    },
+    {
+      "id": 99,
+      "firstName": "Catalina",
+      "lastName": "Wunsch",
+      "ssn": "DEF15FFD0",
+      "address": "03450 Icie Garden",
+      "phone": "+1-797-878-125"
+    },
+    {
+      "id": 100,
+      "firstName": "Name",
+      "lastName": "Goodwin",
+      "ssn": "EA7C9ECDC",
+      "address": "95005 Bailey Square",
+      "phone": "+1-816-016-880"
+    }
+  ]
+}

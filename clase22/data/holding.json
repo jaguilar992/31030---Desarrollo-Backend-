@@ -1,0 +1,1949 @@
+{
+  "id": 3997,
+  "companies": [
+    {
+      "id": 5283,
+      "company_name": "Johns, Schumm and Rowe",
+      "CEO": {
+        "id": 2,
+        "firstName": "Jillian",
+        "lastName": "Altenwerth",
+        "ssn": "BAF4BB1C8",
+        "address": "1139 Everette Drive",
+        "phone": "+1-873-184-066"
+      },
+      "manager": {
+        "id": 3,
+        "firstName": "Fannie",
+        "lastName": "Kreiger",
+        "ssn": "F67BE6F8D",
+        "address": "44337 Trycia Keys",
+        "phone": "+1-862-310-114"
+      },
+      "employees": [
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        }
+      ]
+    },
+    {
+      "id": 3189,
+      "company_name": "Lubowitz Inc",
+      "CEO": {
+        "id": 5,
+        "firstName": "Vena",
+        "lastName": "VonRueden",
+        "ssn": "CEEE27A98",
+        "address": "4119 Ratke Stream",
+        "phone": "+1-292-288-757"
+      },
+      "manager": {
+        "id": 6,
+        "firstName": "Maximilian",
+        "lastName": "Olson",
+        "ssn": "4A08C7EE8",
+        "address": "497 Lang Camp",
+        "phone": "+1-019-747-438"
+      },
+      "employees": [
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        }
+      ]
+    },
+    {
+      "id": 1712,
+      "company_name": "Bauch, Tillman and Conroy",
+      "CEO": {
+        "id": 6,
+        "firstName": "Maximilian",
+        "lastName": "Olson",
+        "ssn": "4A08C7EE8",
+        "address": "497 Lang Camp",
+        "phone": "+1-019-747-438"
+      },
+      "manager": {
+        "id": 4,
+        "firstName": "Lawrence",
+        "lastName": "Kunze",
+        "ssn": "3AAA49A6B",
+        "address": "500 Eda Street",
+        "phone": "+1-224-015-725"
+      },
+      "employees": [
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        }
+      ]
+    },
+    {
+      "id": 4950,
+      "company_name": "Dooley - Roob",
+      "CEO": {
+        "id": 4,
+        "firstName": "Lawrence",
+        "lastName": "Kunze",
+        "ssn": "3AAA49A6B",
+        "address": "500 Eda Street",
+        "phone": "+1-224-015-725"
+      },
+      "manager": {
+        "id": 10,
+        "firstName": "Sheila",
+        "lastName": "Abshire",
+        "ssn": "0D7FDFA1D",
+        "address": "0706 Klocko Inlet",
+        "phone": "+1-616-398-524"
+      },
+      "employees": [
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        }
+      ]
+    },
+    {
+      "id": 5828,
+      "company_name": "Raynor - Larson",
+      "CEO": {
+        "id": 5,
+        "firstName": "Vena",
+        "lastName": "VonRueden",
+        "ssn": "CEEE27A98",
+        "address": "4119 Ratke Stream",
+        "phone": "+1-292-288-757"
+      },
+      "manager": {
+        "id": 2,
+        "firstName": "Jillian",
+        "lastName": "Altenwerth",
+        "ssn": "BAF4BB1C8",
+        "address": "1139 Everette Drive",
+        "phone": "+1-873-184-066"
+      },
+      "employees": [
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        }
+      ]
+    },
+    {
+      "id": 9374,
+      "company_name": "Greenfelder, McLaughlin and Pouros",
+      "CEO": {
+        "id": 10,
+        "firstName": "Sheila",
+        "lastName": "Abshire",
+        "ssn": "0D7FDFA1D",
+        "address": "0706 Klocko Inlet",
+        "phone": "+1-616-398-524"
+      },
+      "manager": {
+        "id": 4,
+        "firstName": "Lawrence",
+        "lastName": "Kunze",
+        "ssn": "3AAA49A6B",
+        "address": "500 Eda Street",
+        "phone": "+1-224-015-725"
+      },
+      "employees": [
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "company_name": "Miller, Thompson and Braun",
+      "CEO": {
+        "id": 1,
+        "firstName": "Granville",
+        "lastName": "Sporer",
+        "ssn": "D6FB07A66",
+        "address": "2950 Walter Ridge",
+        "phone": "+1-383-381-227"
+      },
+      "manager": {
+        "id": 3,
+        "firstName": "Fannie",
+        "lastName": "Kreiger",
+        "ssn": "F67BE6F8D",
+        "address": "44337 Trycia Keys",
+        "phone": "+1-862-310-114"
+      },
+      "employees": [
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        }
+      ]
+    },
+    {
+      "id": 4095,
+      "company_name": "Sauer - Fahey",
+      "CEO": {
+        "id": 7,
+        "firstName": "Callie",
+        "lastName": "Gulgowski",
+        "ssn": "045C3AC4E",
+        "address": "294 Larkin Route",
+        "phone": "+1-796-850-209"
+      },
+      "manager": {
+        "id": 9,
+        "firstName": "Ernie",
+        "lastName": "Gibson",
+        "ssn": "0EDD7DFEA",
+        "address": "7819 Marie View",
+        "phone": "+1-711-375-948"
+      },
+      "employees": [
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        }
+      ]
+    },
+    {
+      "id": 1333,
+      "company_name": "Durgan, Jaskolski and Wintheiser",
+      "CEO": {
+        "id": 7,
+        "firstName": "Callie",
+        "lastName": "Gulgowski",
+        "ssn": "045C3AC4E",
+        "address": "294 Larkin Route",
+        "phone": "+1-796-850-209"
+      },
+      "manager": {
+        "id": 1,
+        "firstName": "Granville",
+        "lastName": "Sporer",
+        "ssn": "D6FB07A66",
+        "address": "2950 Walter Ridge",
+        "phone": "+1-383-381-227"
+      },
+      "employees": [
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        }
+      ]
+    },
+    {
+      "id": 3948,
+      "company_name": "Wilkinson - Carter",
+      "CEO": {
+        "id": 3,
+        "firstName": "Fannie",
+        "lastName": "Kreiger",
+        "ssn": "F67BE6F8D",
+        "address": "44337 Trycia Keys",
+        "phone": "+1-862-310-114"
+      },
+      "manager": {
+        "id": 5,
+        "firstName": "Vena",
+        "lastName": "VonRueden",
+        "ssn": "CEEE27A98",
+        "address": "4119 Ratke Stream",
+        "phone": "+1-292-288-757"
+      },
+      "employees": [
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        }
+      ]
+    },
+    {
+      "id": 3099,
+      "company_name": "Friesen and Sons",
+      "CEO": {
+        "id": 2,
+        "firstName": "Jillian",
+        "lastName": "Altenwerth",
+        "ssn": "BAF4BB1C8",
+        "address": "1139 Everette Drive",
+        "phone": "+1-873-184-066"
+      },
+      "manager": {
+        "id": 10,
+        "firstName": "Sheila",
+        "lastName": "Abshire",
+        "ssn": "0D7FDFA1D",
+        "address": "0706 Klocko Inlet",
+        "phone": "+1-616-398-524"
+      },
+      "employees": [
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        }
+      ]
+    },
+    {
+      "id": 3717,
+      "company_name": "Hickle, Blick and Cummings",
+      "CEO": {
+        "id": 9,
+        "firstName": "Ernie",
+        "lastName": "Gibson",
+        "ssn": "0EDD7DFEA",
+        "address": "7819 Marie View",
+        "phone": "+1-711-375-948"
+      },
+      "manager": {
+        "id": 2,
+        "firstName": "Jillian",
+        "lastName": "Altenwerth",
+        "ssn": "BAF4BB1C8",
+        "address": "1139 Everette Drive",
+        "phone": "+1-873-184-066"
+      },
+      "employees": [
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        }
+      ]
+    },
+    {
+      "id": 8060,
+      "company_name": "Tremblay - Marvin",
+      "CEO": {
+        "id": 8,
+        "firstName": "Eino",
+        "lastName": "Steuber",
+        "ssn": "D414832CC",
+        "address": "578 Valentin Prairie",
+        "phone": "+1-029-654-923"
+      },
+      "manager": {
+        "id": 10,
+        "firstName": "Sheila",
+        "lastName": "Abshire",
+        "ssn": "0D7FDFA1D",
+        "address": "0706 Klocko Inlet",
+        "phone": "+1-616-398-524"
+      },
+      "employees": [
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        }
+      ]
+    },
+    {
+      "id": 9138,
+      "company_name": "Swift, Balistreri and Kunde",
+      "CEO": {
+        "id": 5,
+        "firstName": "Vena",
+        "lastName": "VonRueden",
+        "ssn": "CEEE27A98",
+        "address": "4119 Ratke Stream",
+        "phone": "+1-292-288-757"
+      },
+      "manager": {
+        "id": 10,
+        "firstName": "Sheila",
+        "lastName": "Abshire",
+        "ssn": "0D7FDFA1D",
+        "address": "0706 Klocko Inlet",
+        "phone": "+1-616-398-524"
+      },
+      "employees": [
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        }
+      ]
+    },
+    {
+      "id": 5771,
+      "company_name": "Klocko, Fahey and O'Conner",
+      "CEO": {
+        "id": 3,
+        "firstName": "Fannie",
+        "lastName": "Kreiger",
+        "ssn": "F67BE6F8D",
+        "address": "44337 Trycia Keys",
+        "phone": "+1-862-310-114"
+      },
+      "manager": {
+        "id": 9,
+        "firstName": "Ernie",
+        "lastName": "Gibson",
+        "ssn": "0EDD7DFEA",
+        "address": "7819 Marie View",
+        "phone": "+1-711-375-948"
+      },
+      "employees": [
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        }
+      ]
+    },
+    {
+      "id": 2737,
+      "company_name": "Williamson Group",
+      "CEO": {
+        "id": 1,
+        "firstName": "Granville",
+        "lastName": "Sporer",
+        "ssn": "D6FB07A66",
+        "address": "2950 Walter Ridge",
+        "phone": "+1-383-381-227"
+      },
+      "manager": {
+        "id": 9,
+        "firstName": "Ernie",
+        "lastName": "Gibson",
+        "ssn": "0EDD7DFEA",
+        "address": "7819 Marie View",
+        "phone": "+1-711-375-948"
+      },
+      "employees": [
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        }
+      ]
+    },
+    {
+      "id": 7344,
+      "company_name": "McCullough, Friesen and McDermott",
+      "CEO": {
+        "id": 7,
+        "firstName": "Callie",
+        "lastName": "Gulgowski",
+        "ssn": "045C3AC4E",
+        "address": "294 Larkin Route",
+        "phone": "+1-796-850-209"
+      },
+      "manager": {
+        "id": 2,
+        "firstName": "Jillian",
+        "lastName": "Altenwerth",
+        "ssn": "BAF4BB1C8",
+        "address": "1139 Everette Drive",
+        "phone": "+1-873-184-066"
+      },
+      "employees": [
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        }
+      ]
+    },
+    {
+      "id": 7691,
+      "company_name": "Mann and Sons",
+      "CEO": {
+        "id": 4,
+        "firstName": "Lawrence",
+        "lastName": "Kunze",
+        "ssn": "3AAA49A6B",
+        "address": "500 Eda Street",
+        "phone": "+1-224-015-725"
+      },
+      "manager": {
+        "id": 2,
+        "firstName": "Jillian",
+        "lastName": "Altenwerth",
+        "ssn": "BAF4BB1C8",
+        "address": "1139 Everette Drive",
+        "phone": "+1-873-184-066"
+      },
+      "employees": [
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        }
+      ]
+    },
+    {
+      "id": 6293,
+      "company_name": "Hammes - Kutch",
+      "CEO": {
+        "id": 9,
+        "firstName": "Ernie",
+        "lastName": "Gibson",
+        "ssn": "0EDD7DFEA",
+        "address": "7819 Marie View",
+        "phone": "+1-711-375-948"
+      },
+      "manager": {
+        "id": 6,
+        "firstName": "Maximilian",
+        "lastName": "Olson",
+        "ssn": "4A08C7EE8",
+        "address": "497 Lang Camp",
+        "phone": "+1-019-747-438"
+      },
+      "employees": [
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        }
+      ]
+    },
+    {
+      "id": 6193,
+      "company_name": "Bins - Jast",
+      "CEO": {
+        "id": 4,
+        "firstName": "Lawrence",
+        "lastName": "Kunze",
+        "ssn": "3AAA49A6B",
+        "address": "500 Eda Street",
+        "phone": "+1-224-015-725"
+      },
+      "manager": {
+        "id": 8,
+        "firstName": "Eino",
+        "lastName": "Steuber",
+        "ssn": "D414832CC",
+        "address": "578 Valentin Prairie",
+        "phone": "+1-029-654-923"
+      },
+      "employees": [
+        {
+          "id": 2,
+          "firstName": "Jillian",
+          "lastName": "Altenwerth",
+          "ssn": "BAF4BB1C8",
+          "address": "1139 Everette Drive",
+          "phone": "+1-873-184-066"
+        },
+        {
+          "id": 9,
+          "firstName": "Ernie",
+          "lastName": "Gibson",
+          "ssn": "0EDD7DFEA",
+          "address": "7819 Marie View",
+          "phone": "+1-711-375-948"
+        },
+        {
+          "id": 7,
+          "firstName": "Callie",
+          "lastName": "Gulgowski",
+          "ssn": "045C3AC4E",
+          "address": "294 Larkin Route",
+          "phone": "+1-796-850-209"
+        },
+        {
+          "id": 10,
+          "firstName": "Sheila",
+          "lastName": "Abshire",
+          "ssn": "0D7FDFA1D",
+          "address": "0706 Klocko Inlet",
+          "phone": "+1-616-398-524"
+        },
+        {
+          "id": 4,
+          "firstName": "Lawrence",
+          "lastName": "Kunze",
+          "ssn": "3AAA49A6B",
+          "address": "500 Eda Street",
+          "phone": "+1-224-015-725"
+        },
+        {
+          "id": 6,
+          "firstName": "Maximilian",
+          "lastName": "Olson",
+          "ssn": "4A08C7EE8",
+          "address": "497 Lang Camp",
+          "phone": "+1-019-747-438"
+        },
+        {
+          "id": 3,
+          "firstName": "Fannie",
+          "lastName": "Kreiger",
+          "ssn": "F67BE6F8D",
+          "address": "44337 Trycia Keys",
+          "phone": "+1-862-310-114"
+        },
+        {
+          "id": 5,
+          "firstName": "Vena",
+          "lastName": "VonRueden",
+          "ssn": "CEEE27A98",
+          "address": "4119 Ratke Stream",
+          "phone": "+1-292-288-757"
+        },
+        {
+          "id": 8,
+          "firstName": "Eino",
+          "lastName": "Steuber",
+          "ssn": "D414832CC",
+          "address": "578 Valentin Prairie",
+          "phone": "+1-029-654-923"
+        },
+        {
+          "id": 1,
+          "firstName": "Granville",
+          "lastName": "Sporer",
+          "ssn": "D6FB07A66",
+          "address": "2950 Walter Ridge",
+          "phone": "+1-383-381-227"
+        }
+      ]
+    }
+  ]
+}
