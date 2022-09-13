@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+</head>
+<body>
+  <button onclick="logout()">Logout</button>
+  <h1>Dashboard</h1>
+  <div id="dashboard"></div>
+  <script>
+    // Fetch Dashboard data with async/await and redirect to login if not logged in
+    getDashboardData(); // Carga de la pagina, se refresca la data del dashboard
+    async function getDashboardData() {
+      try {
+        const response = await fetch('/api/dashboard', {
+          method: 'GET',
+          headers: {'Content-Type': 'application/json'},
+        });
+        const data = await response.json();
+        document.getElementById('dashboard').innerHTML = `
+          Bienvenido ${data.user}!!
+        `;
+        if (data.error) {
+          window.location.href = '/login';
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    async function logout() {
+      try {
+        const response = await fetch('/api/logout', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
+        const data = await response.json();
+        if (data.status) {
+          window.location.href = '/login';
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Create a login using semantic ui -->
+  <div class="ui container">
+    <br>
+    <div class="ui middle aligned center aligned grid">
+      <div class="eight wide column">
+        <h2 class="ui teal image header">
+          <img src="https://react.semantic-ui.com/logo.png" class="image">
+          <div class="content">
+            Log-in to your account
+          </div>
+        </h2>
+        <form class="ui large form">
+          <div class="ui stacked">
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="text" name="email" placeholder="E-mail address">
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="lock icon"></i>
+                <input type="password" name="password" placeholder="Password">
+              </div>
+            </div>
+            <div class="ui fluid large teal submit button" onclick="login()">Login</div>
+          </div>  
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function login() {
+      try {
+
+        const user = document.querySelector('input[name="email"]').value;
+        const password = document.querySelector('input[name="password"]').value;
+        const resultado = await fetch('/api/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            email: user,
+            password
+          })
+        });
+        const data = await resultado.json();
+        location.href = '/dashboard.html';
+      } catch (error) {
+        alert("Credentials are incorrect");
+      }
+    }
+  </script>
+</body>
+</html>
