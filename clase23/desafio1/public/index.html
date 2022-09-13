@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Manager</title>
+    <style>
+      input {
+        width: 200px;
+        margin-bottom: 10px;
+      }
+      input[type="text"], input[type="number"] {
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Agregar nueva cookie</h1>
+    <form action="#">
+      <input type="text" name="key" id="key" placeholder="Key" />
+      <br />
+      <input type="text" name="value" id="value" placeholder="Value" />
+      <br />
+      <input type="number" name="time" id="time" placeholder="Time" min="0" max="3600"/>
+      <br />
+      Signed: <input type="checkbox" name="signed" id="signed" />
+      <br />
+      <button type="button" id="button" onclick="crearCookie()">Crear</button>
+    </form>
+
+    <div>
+      <h1>Cookies</h1>
+      <button onclick="leerCookies()">Leer Cookies</button>
+      <br>
+      <br>
+      <div id="cookies">
+
+      </div>
+      
+      <h1>Signed Cookies</h1>
+      <button onclick="leerCookies(true)">Leer Signed Cookies</button>
+      <br>
+      <br>
+      <div id="signed-cookies">
+
+      </div>
+    </div>
+
+    <script>
+      async function leerCookies(signed = false) {
+        try {
+          const url = signed ? "/cookie?signed=true" : "/cookie";
+          const result = await fetch(url, {
+            method: "GET",
+            headers: {"Content-Type": "application/json",},
+          });
+          const text = await result.text();
+          const data = JSON.parse(text);
+          const id = signed ? "signed-cookies" : "cookies";
+          document.getElementById(id).innerHTML = "";
+          for(const [cookie, value] of Object.entries(data.cookies)) {
+            document.getElementById(id).innerHTML += `
+              <div>
+                <b>${cookie}: </b>
+                <i>${value} </i> 
+                <button onclick="borrarCookie('${cookie}')">Delete</button>
+              </div>
+              <br/>
+            `
+          };
+        } catch (err) {
+          console.log(err);
+        }
+      }
+
+      async function borrarCookie(cookie) {
+        try {
+          if (!cookie) return;
+          const url = `/cookie/${cookie}`;
+          const resultado = await fetch(url, {
+            method: "DELETE",
+            headers: {"Content-Type": "application/json",},
+          });
+          leerCookies();
+          leerCookies(true);
+        } catch (err) {
+          console.log(err);
+        }
+      }
+
+      async function crearCookie() {
+        const key = document.getElementById("key").value;
+        const value = document.getElementById("value").value;
+        const time = document.getElementById("time").value;
+        const signed = document.getElementById("signed").checked;
+        console.log(signed, key, value);
+        try {
+          const resultado = await fetch("/cookie", {
+            method: "POST",
+            body: JSON.stringify({
+              key,
+              value,
+              exp: time,
+              signed,
+            }),
+            headers: {"Content-Type": "application/json",},
+          });
+          leerCookies();
+          leerCookies(true);
+        } catch (err) {
+          console.log(err);
+        }
+      }
+
+      leerCookies();
+      leerCookies(true);
+    </script>
+  </body>
+</html>
