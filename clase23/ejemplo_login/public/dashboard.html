@@ -23,7 +23,7 @@
         document.getElementById('dashboard').innerHTML = `
           Bienvenido ${data.user}!!
         `;
-        if (data.error) {
+        if (data.error) { // 401 Unauthorized
           window.location.href = '/login';
         }
       } catch (error) {

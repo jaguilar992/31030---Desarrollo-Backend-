@@ -1,0 +1,28 @@
+- Listar informacion de la base de datos
+INFO MEMORY
+KEYS *
+
+- Agregar claves
+
+SET product:1 Tijeras
+SET product:2 Cuaderno
+SET product:3 Libro
+SET product:4 Escuadra
+SET product:5 Calculadora
+
+- Listar claves
+
+GET product:1
+GET product:2
+GET product:3
+GET product:4
+GET product:5
+
+SET product:6 Regla EX 30
+
+GET product:6
+
+TTL product:6
+
+GET product:6
+
