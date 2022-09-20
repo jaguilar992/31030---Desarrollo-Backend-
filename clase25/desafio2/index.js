@@ -2,21 +2,50 @@ const express = require('express');
 const app = express();
 const PORT = 8000;
 
+const User = require('./user.schema');
+const passport = require('passport');
+const LocalStrategy = require('passport-local').Strategy;
+const {Types} = require('mongoose');
+const {connect} = require('./database');
+const { comparePassword, hashPassword } = require("./utils")
+connect();
+
+passport.use("login", new LocalStrategy(async (username, password, done) => {
+  const user = await User.findOne({ username });
+  const passHash = user.password;
+  if (!user || !comparePassword(password, passHash)) {
+    return done(null, null, { message: "Invalid username or password" });
+  }
+  return done(null, user);
+}));
+
+passport.use("signup", new LocalStrategy({
+  passReqToCallback: true
+}, async (req, username, password, done) => {
+  const user = await User.findOne({ username });
+  if (user) {
+    return done(new Error("User already exists."), null);
+  }
+  const address = req.body.address;
+  const hashedPassword = hashPassword(password);
+  const newUser = new User({ username, password: hashedPassword , address });
+  await newUser.save();
+  return done(null, newUser);
+}));
+
+passport.serializeUser((user, done) => {
+  done(null, user._id);
+});
+
+passport.deserializeUser(async (id, done) => {
+  id = Types.ObjectId(id);
+  const user = await User.findById(id);
+  done(null, user);
+});
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
-
-const handlebars = require("express-handlebars");
-const hbs = handlebars.create({
-  extname: ".hbs",
-  defaultLayout: "index.hbs",
-  layoutsDir: __dirname + "/views/",
-  partialsDir: __dirname + "/views/partials/"
-});
-
-app.engine("hbs", hbs.engine);
-app.set("view engine", "hbs");
-app.set("views", "./views/pages");
 
 const authMiddleware = require('./middleware');
 
@@ -34,51 +63,62 @@ app.use(session({
   })
 );
 
+app.use(passport.initialize());
+app.use(passport.session());
+
+const handlebars = require("express-handlebars");
+const hbs = handlebars.create({
+  extname: ".hbs",
+  defaultLayout: "index.hbs",
+  layoutsDir: __dirname + "/views/",
+  partialsDir: __dirname + "/views/partials/"
+});
+
+app.engine("hbs", hbs.engine);
+app.set("view engine", "hbs");
+app.set("views", "./views/pages");
+
 const usersWithPasswords = [
   { username: 'user1', password: 'password1', address: 'address1' },
   { username: 'user2', password: 'password2', address: 'address2' },
   { username: 'user3', password: 'password3', address: 'address3' },
 ]
 
-
-app.post("/sign_up", (req, res) => {
-  const username = req.body.username;
-  const password = req.body.password;
-  const address = req.body.address;
-  const user = usersWithPasswords.find(user => user.username === username);
-  if (user) {
-    res.status(400).send("User already exists");
-  } else {
-    usersWithPasswords.push({ username, password, address });
-    res.send({
-      message: "User created successfully",
-      user
-    });
-  }
+app.get("/", (req, res) => {
+  res.redirect('/profile');
 });
 
-app.post("/login", (req, res) => {
-  const { username, password } = req.body;
-  const user = usersWithPasswords.find(user => user.username === username);
-  if (user && user.password === password) {
-    req.session.user = user;
+app.post("/signup", passport.authenticate("signup", {
+  failureRedirect: "/signup",
+}) , (req, res) => {  
+  req.session.user = req.user;
+  res.redirect("/profile");
+});
+
+app.post("/login", passport.authenticate("login", {
+  failureRedirect: "/login",
+}) ,(req, res) => {
+    req.session.user = req.user;
     res.redirect('/profile');
-  } else {
-    res.status(401).send({ success: false });
-  }
 });
 
 app.get("/login", (req, res) => {
   res.sendFile(__dirname + "/public/login.html");
 });
 
+app.get("/signup", (req, res) => {
+  res.sendFile(__dirname + "/public/signup.html");
+});
+
 app.get("/profile", authMiddleware,(req, res) => {
-  console.log(req.session.user);
   res.render(__dirname + "/views/pages/profile", { user: req.session.user});
 });
 
-app.get("/", (req, res) => {
-  res.redirect('/profile');
+app.post("/logout", (req, res) => {
+  req.session.destroy();
+  req.logout(()=> {
+    res.redirect('/login');
+  });
 });
 
 app.listen(PORT, () => {
