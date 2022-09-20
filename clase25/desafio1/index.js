@@ -81,6 +81,11 @@ app.get("/", (req, res) => {
   res.redirect('/profile');
 });
 
+app.post("/logout", (req, res) => {
+  req.session.destroy();
+  res.redirect('/login');
+});
+
 app.listen(PORT, () => {
   console.log(`⚡ Server listening :: http://localhost:${PORT}`);
 });
