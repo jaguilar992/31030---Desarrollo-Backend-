@@ -1,0 +1,30 @@
+<h1>Perfil</h1>
+<h2>Bienvenido</h2>
+<h3>Numero de visitas {{contador}}</h3>
+<button id="logout">Logout</button>
+<table>
+  <thead>
+    <th>Nombre</th>
+    <th>Direccion</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{user.username}}</td>
+      <td>{{user.address}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+  const logoutButton = document.querySelector('#logout');
+  logoutButton.addEventListener('click', () => {
+    fetch('/logout', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then(() => {
+      window.location.href = '/';
+    });
+  });
+</script>

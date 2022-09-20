@@ -1,0 +1,19 @@
+<!-- Create a login form that send via POST a request -->
+<!-- to the server with the username and password -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Desafio 1</title>
+  </head>
+  <body>
+    <form action="http://localhost:8000/login" method="POST">
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" />
+      <br>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <br>
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
