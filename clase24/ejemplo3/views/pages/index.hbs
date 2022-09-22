@@ -1,0 +1,25 @@
+<h1>Bienvenido(a) {{name}}!</h1>
+<p>
+  Esta es tu visita numero {{visits}}.
+</p>
+
+<span id="counter">
+  Contador: 0
+</span>
+<br>
+
+<button id="logout">Logout</button>
+
+<script>
+  let i = 1;
+  setInterval(function() {
+    var counter = document.getElementById('counter');
+    counter.innerHTML = 'Contador: ' + i;
+    i++;
+  }, 1000);
+
+  var logout = document.getElementById('logout');
+  logout.addEventListener('click', function() {
+    window.location.href = '/logout';
+  });
+</script>
