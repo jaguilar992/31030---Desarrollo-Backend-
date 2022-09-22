@@ -2,12 +2,17 @@ const express = require('express');
 const app = express();
 const passport = require('passport');
 const authMiddleware = require('./middleware');
-require('./handlebars.engine');
+const hbs = require('./handlebars.engine');
 require('./passport');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
+
+app.engine("hbs", hbs.engine);
+app.set("view engine", "hbs");
+app.set("views", "./views/pages");
+
 const PORT = 8000;
 
 const MongoStore = require('connect-mongo');
@@ -23,6 +28,8 @@ app.use(session({
     }),
   })
 );
+
+// USE PASSPORT MIDDLEWARE
 
 app.get("/", (req, res) => {
   res.redirect('/profile');
@@ -41,7 +48,6 @@ app.get("/profile", authMiddleware,(req, res) => {
 });
 
 app.post("/logout", (req, res) => {
-  req.session.destroy();
   req.logout(()=> { // Logout from passport - Method agregado a request object
     res.redirect('/login');
   });

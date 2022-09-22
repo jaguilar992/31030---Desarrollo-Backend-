@@ -1,5 +1,5 @@
-// Login Strategy
-passport.use();
-// passport.use();
 passport.serializeUser();
 passport.deserializeUser();
+
+// Login Strategy
+passport.use();
