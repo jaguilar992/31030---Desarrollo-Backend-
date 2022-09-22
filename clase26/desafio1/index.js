@@ -30,6 +30,8 @@ app.use(session({
 );
 
 // USE PASSPORT MIDDLEWARE
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.get("/", (req, res) => {
   res.redirect('/profile');
@@ -39,12 +41,23 @@ app.get("/login", (req, res) => {
   res.sendFile(__dirname + "/public/login.html");
 });
 
-app.get("/signup", (req, res) => {
-  res.sendFile(__dirname + "/public/signup.html");
-});
+// Redirige al formulario de inicio de session de Google
+app.get("/google", passport.authenticate("google", {
+  scope: ["profile", "email"]
+}));
+
+
+// Desede Google nos va redirigir al callback que hemos configurado
+// en el web client (oAuthID)
+app.get("/callback", passport.authenticate("google", {
+  failureRedirect: "/login" // En caso de fallo nos vuelve a mostrar al login
+}), (req, res) => {
+  res.redirect("/profile"); // Para redirigir en caso de exito a nuestra pagina principal
+})
 
 app.get("/profile", authMiddleware,(req, res) => {
-  res.render(__dirname + "/views/pages/profile", { user: req.session.user});
+  console.log(req.user);
+  res.render(__dirname + "/views/pages/profile", { user: req.user});
 });
 
 app.post("/logout", (req, res) => {

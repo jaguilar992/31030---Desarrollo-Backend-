@@ -1,5 +1,9 @@
 <h1>Perfil</h1>
-{{!-- Mostrar perfil de usuario --}}
+<button id="logout">Logout</button>
+{{#if user}}
+  <p>User: {{user.name.givenName}} {{user.name.familyName}}</p>
+  <p>Email: {{user._json.email}}</p>
+{{/if}}
 
 <script>
   const logoutButton = document.querySelector('#logout');
