@@ -1,17 +1,9 @@
 <h1>Perfil</h1>
 <button id="logout">Logout</button>
-<table>
-  <thead>
-    <th>Nombre</th>
-    <th>Direccion</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>{{user.username}}</td>
-      <td>{{user.address}}</td>
-    </tr>
-  </tbody>
-</table>
+{{#if user}}
+  <p>User: {{user.name.givenName}} {{user.name.familyName}}</p>
+  <p>Email: {{user.email}}</p>
+{{/if}}
 
 <script>
   const logoutButton = document.querySelector('#logout');

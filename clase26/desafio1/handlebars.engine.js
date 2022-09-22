@@ -6,6 +6,4 @@ const hbs = handlebars.create({
   partialsDir: __dirname + "/views/partials/"
 });
 
-app.engine("hbs", hbs.engine);
-app.set("view engine", "hbs");
-app.set("views", "./views/pages");
+module.exports = hbs;
