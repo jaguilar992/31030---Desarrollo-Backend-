@@ -24,7 +24,8 @@ app.use(session({
     store: new MongoStore({
       mongoUrl: 'mongodb://localhost:27017/sessions',
       retries: 0,
-      ttl: 60 * 60 * 24, // 1 day
+      ttl: 60 * 60 * 24, // 1 day 
+      // ttl: 10*60
     }),
   })
 );
