@@ -1,0 +1,24 @@
+[2022-10-20T17:23:23.115] [DEBUG] productionLogger - Mensaje debug
+[2022-10-20T17:23:23.116] [INFO] productionLogger - Mensaje info
+[2022-10-20T17:23:23.116] [WARN] productionLogger - Mensaje warn
+[2022-10-20T17:23:23.116] [ERROR] productionLogger - Mensaje error
+[2022-10-20T17:23:23.116] [FATAL] productionLogger - Mensaje fatal
+[2022-10-20T17:24:37.419] [DEBUG] productionLogger - Mensaje debug
+[2022-10-20T17:24:37.419] [INFO] productionLogger - Mensaje info
+[2022-10-20T17:24:37.420] [WARN] productionLogger - Mensaje warn
+[2022-10-20T17:24:37.420] [ERROR] productionLogger - Mensaje error
+[2022-10-20T17:24:37.420] [FATAL] productionLogger - Mensaje fatal
+[2022-10-20T17:28:22.768] [DEBUG] productionLogger - Mensaje debug
+[2022-10-20T17:28:22.769] [INFO] productionLogger - Mensaje info
+[2022-10-20T17:28:22.769] [WARN] productionLogger - Mensaje warn
+[2022-10-20T17:28:22.769] [ERROR] productionLogger - Mensaje error
+[2022-10-20T17:28:22.770] [FATAL] productionLogger - Mensaje fatal
+[2022-10-20T17:28:36.680] [ERROR] productionLogger - Valor de tipo incorrecto (a:Int, b:Int)
+[2022-10-20T17:28:49.319] [DEBUG] productionLogger - Mensaje debug
+[2022-10-20T17:28:49.320] [INFO] productionLogger - Mensaje info
+[2022-10-20T17:28:49.320] [WARN] productionLogger - Mensaje warn
+[2022-10-20T17:28:49.320] [ERROR] productionLogger - Mensaje error
+[2022-10-20T17:28:49.320] [FATAL] productionLogger - Mensaje fatal
+[2022-10-20T17:28:56.643] [ERROR] productionLogger - Valor de tipo incorrecto (a:Int, b:Int)
+[2022-10-20T17:31:02.178] [ERROR] productionLogger - Ocurrio un error al iniciar el servidor Error: listen EADDRINUSE: address already in use :::8080
+[2022-10-20T17:33:09.842] [WARN] productionLogger - Ruta no encontrada /saludo
