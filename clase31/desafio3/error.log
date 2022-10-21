@@ -1,0 +1,2 @@
+{"level":"error","message":"Ocurrio un error al iniciar el servidor Error: listen EADDRINUSE: address already in use :::8080"}
+{"level":"error","message":"Valor de tipo incorrecto (a:Int, b:Int)"}

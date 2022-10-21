@@ -1,0 +1,4 @@
+{"level":"error","message":"Ocurrio un error al iniciar el servidor Error: listen EADDRINUSE: address already in use :::8080"}
+{"level":"warn","message":"Ruta no encontrada /saludo"}
+{"level":"error","message":"Valor de tipo incorrecto (a:Int, b:Int)"}
+{"level":"info","message":"Operacion exitosa Resultado 11"}
