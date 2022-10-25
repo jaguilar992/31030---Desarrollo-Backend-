@@ -4,12 +4,16 @@
   "description": "",
   "main": "server1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "0x server4.js 8080 FORK",
+    "benchmark": "node benchmark.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "autocannon": "^7.10.0"
   }
 }
