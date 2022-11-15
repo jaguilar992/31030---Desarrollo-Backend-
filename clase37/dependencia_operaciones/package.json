@@ -1,0 +1,9 @@
+{
+  "name": "dependemator",
+  "version": "1.0.1",
+  "description": "Dependencia. Operaciones aritmetica",
+  "main": "index.js",
+  "keywords": ["aritmetica", "suma", "resta"],
+  "author": "jaguilar992",
+  "license": "MIT"
+}
