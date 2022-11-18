@@ -5,15 +5,18 @@ const {
   addNewPokemon,
   getPokemonById,
   updatePokemonById,
-  deletePokemonById
+  deletePokemonById,
+  showPokemonView
 } = require("../controllers/pokemon");
+const { isAuth } = require("../middlewares");
 
 
 PokemonRouter.get("/", getAllPokemons);
 PokemonRouter.post("/", addNewPokemon);
-PokemonRouter.get("/:id", getPokemonById);
 PokemonRouter.put("/:id", updatePokemonById);
 PokemonRouter.delete("/:id", deletePokemonById);
+PokemonRouter.get("/:id", getPokemonById);
+PokemonRouter.get("/view/all", showPokemonView)
 
 
 

@@ -3,29 +3,27 @@ const contenedor = new Contenedor(__dirname + "/../database/pokemon.json");
 
 function parseId(id) {
   if (id < 10) {
-    return `00${id}`
+    return `00${id}`;
   } else if (id < 100) {
-    return `0${id}`
-  } else if (id < 1000)
-    return id;
-  else 
-    return '';
+    return `0${id}`;
+  } else if (id < 1000) return id;
+  else return "";
 }
 
 class PokemonService {
-  static save(pokemon){
+  static save(pokemon) {
     const completeId = parseId(pokemon.id);
-    const imageURL = `https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/${completeId}.png`
-    pokemon.imagen = imageURL
+    const imageURL = `https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/${completeId}.png`;
+    pokemon.imagen = imageURL;
     contenedor.save(pokemon);
     return pokemon;
   }
 
   static readAll() {
-    return contenedor.getAll()
+    return contenedor.getAll();
   }
 
-  static getById(id){
+  static getById(id) {
     return contenedor.getById(id);
   }
 

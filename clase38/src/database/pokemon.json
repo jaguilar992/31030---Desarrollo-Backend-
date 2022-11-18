@@ -26,5 +26,40 @@
     "tipo": "Agua",
     "HP": 10,
     "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/007.png"
+  },
+  {
+    "id": 100,
+    "nombre": "Charizard",
+    "tipo": "Fuego",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/100.png"
+  },
+  {
+    "id": 100,
+    "nombre": "Charizard",
+    "tipo": "Fuego",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/100.png"
+  },
+  {
+    "id": 100,
+    "nombre": "Charizard",
+    "tipo": "Fuego",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/100.png"
+  },
+  {
+    "id": 100,
+    "nombre": "Charizard",
+    "tipo": "Fuego",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/100.png"
+  },
+  {
+    "id": "40",
+    "nombre": "Meow",
+    "tipo": "Normal",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/040.png"
   }
 ]

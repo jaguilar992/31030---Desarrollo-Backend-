@@ -1,0 +1,33 @@
+<h1>Pokemons: Almacenados</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Imagen</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each pokemons}}
+      <tr>
+        <td>{{nombre}}</td>
+        <td>{{tipo}}</td>
+        <td>{{imagen}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+<h1>Add new Pokemon</h1>
+<form action="/pokemon" method="POST">
+  <label for="nombre">Nombre</label>
+  <input type="text" name="nombre" id="nombre">
+  <br>
+  <label for="id">Id</label>
+  <input type="text" name="id" id="id">
+  <br>
+  <label for="tipo">Tipo</label>
+  <input type="text" name="tipo" id="tipo">
+  <br>
+  <button type="submit">Enviar</button>
+</form>
