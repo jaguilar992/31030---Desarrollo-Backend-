@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1
+  },
+  {
+    "nombre": "Ash",
+    "edad": 12,
+    "ciudad": "Paleta",
+    "id": 2,
+    "pokemon": [
+      25,
+      1
+    ]
+  }
+]

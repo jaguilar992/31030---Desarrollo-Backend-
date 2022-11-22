@@ -1,0 +1,44 @@
+[
+  {
+    "id": 25,
+    "nombre": "Pikachu",
+    "tipo": "Electrico",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/025.png"
+  },
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "tipo": "Hierba",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/001.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "tipo": "Fuego",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/004.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Squirtle",
+    "tipo": "Agua",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/007.png"
+  },
+  {
+    "id": 100,
+    "nombre": "Charizard",
+    "tipo": "Fuego",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/100.png"
+  },
+  {
+    "id": "40",
+    "nombre": "Meow",
+    "tipo": "Normal",
+    "HP": 10,
+    "imagen": "https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/040.png"
+  }
+]
