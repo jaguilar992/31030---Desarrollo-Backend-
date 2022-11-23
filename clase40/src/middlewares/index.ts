@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
-const {JWT_KEY = ""} = require("../config")
+import {JWT_KEY} from "../config";
 
-function isAuth (req, res, next ) {
+export function isAuth (req, res, next ) {
   const headers = req.headers;
   if(!headers.authorization) {
     res.status(401).json({
@@ -11,7 +11,7 @@ function isAuth (req, res, next ) {
   }
   const token = headers.authorization.split(" ")[1];
   try {
-    const verified = jwt.verify(token, JWT_KEY);
+    const verified = jwt.verify(token, JWT_KEY || "");
   } catch (err) {
     res.status(400).json({
       mensaje: "Token invalido"
@@ -19,8 +19,4 @@ function isAuth (req, res, next ) {
     return;
   }
   next();
-}
-
-module.exports = {
-  isAuth
 }

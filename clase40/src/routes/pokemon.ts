@@ -1,15 +1,15 @@
-const express = require("express");
-const PokemonRouter = express.Router();
-const {
+import { Router } from "express";
+const PokemonRouter = Router();
+import { isAuth } from "../middlewares/"
+
+import  {
   getAllPokemons,
   addNewPokemon,
   getPokemonById,
   updatePokemonById,
   deletePokemonById,
   showPokemonView
-} = require("../controllers/pokemon");
-const { isAuth } = require("../middlewares");
-
+} from "../controllers/pokemon";
 
 PokemonRouter.get("/", getAllPokemons);
 PokemonRouter.post("/", addNewPokemon);
@@ -20,4 +20,4 @@ PokemonRouter.get("/view/all", showPokemonView)
 
 
 
-module.exports = PokemonRouter;
+export default PokemonRouter;

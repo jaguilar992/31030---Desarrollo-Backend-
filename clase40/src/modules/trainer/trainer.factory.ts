@@ -1,10 +1,10 @@
-import { DATABASE_TYPE } from "../config"
-import { TrainerDAOMongoImpl } from "../dao/trainer.dao.mongo";
-import {DAOInterface} from "../dao/trainer.dao.mongo";
+import { DATABASE_TYPE } from "../../config"
+import { TrainerDAOMongoImpl } from "./trainer.dao.mongo";
+import {DAOInterface} from "../dao.interface";
 // import { TrainerDAOMYSQLImpl } from "../dao/trainer.dao.mongo";
 // import { TrainerDAOFirebaseImpl } from "../dao/trainer.dao.mongo";
 
-export class TrainerFactory {
+export class TrainerDAOFactory {
   private trainerDAO;
   getDAO() {
     // retorna el DAO dependiendo de la conexion de base de datos a usar

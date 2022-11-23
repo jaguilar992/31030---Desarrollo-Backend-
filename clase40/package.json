@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "webpack",
-    "start": "npm run build && node .",
+    "start": "npm run build && node . | pino-pretty",
     "server": "node .",
     "dev": "concurrently \"npm run watch:build\" \"npm run watch:server\"",
     "watch:server": "nodemon \"./dist/main.js\" --watch \"./dist\" | pino-pretty",

@@ -10,7 +10,7 @@ export class MongoConnection {
   public static async connect(): Promise<boolean> {
     if (!MongoConnection.connected) {
       try {
-        await connect(MONGO_URI);
+        await connect(MONGO_URI || "");
         MongoConnection.connected = true;
         return true;
       } catch (err) {

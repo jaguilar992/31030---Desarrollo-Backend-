@@ -1,16 +1,17 @@
 import { MongoConnection } from "./src/database";
 
-const express = require("express");
-const cors = require("cors");
+import express from "express"
 const app = express();
-const { PORT=8080 } = require("./src/config")
+
+import cors from "cors";
+import { PORT } from "./src/config"
 MongoConnection.connect();
 
 // Routers
-const PokemonRouter = require("./src/routes/pokemon");
-const TrainerRouter = require("./src/routes/trainer");
-const logger = require("./src/logs/logger");
-const hbs = require("./src/views/config");
+import PokemonRouter from "./src/routes/pokemon";
+import TrainerRouter from "./src/routes/trainer";
+import logger from "./src/logs/logger";
+import {hbs} from "./src/views/config";
 
 app.engine("hbs", hbs.engine);
 app.set("view engine", "hbs");
@@ -20,6 +21,7 @@ app.set("views", "./src/views/");
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(cors());
+
 // Routes
 app.use("/pokemon", PokemonRouter);
 app.use("/trainer", TrainerRouter);
@@ -32,4 +34,4 @@ server.on("error", (err) => {
   logger.err(err);
 });
 
-module.exports = app;
+export default app;

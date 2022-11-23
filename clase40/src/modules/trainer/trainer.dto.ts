@@ -1,11 +1,11 @@
-import { PokemonDTO } from "./pokemon.dto";
+import { PokemonDTO } from "../pokemon/pokemon.dto";
 
 export interface TrainerDTO {
   name: string;
   age: number;
   city: string;
   id?: string;
-  pokemons?: PokemonDTO[];
+  pokemons?: any;
 }
 
 // const trainer: TrainerDTO = {

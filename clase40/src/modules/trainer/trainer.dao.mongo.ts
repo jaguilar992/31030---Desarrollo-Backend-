@@ -1,28 +1,21 @@
 import { model, Schema, Types } from "mongoose";
-import { MongoConnection } from "../database";
-import { TrainerDTO } from "../dto/trainer.dto";
+import { MongoConnection } from "../../database";
+import { DAOInterface } from "../dao.interface";
+import { TrainerDTO } from "./trainer.dto";
 
-export interface DAOInterface {
-  getAll();
-  getById(id: string);
-  save(object: TrainerDTO);
-  update(id: string, object: TrainerDTO);
-  delete(id: string);
-}
+const TrainerSchema = new Schema<TrainerDTO>({
+  name: {type: 'String'},
+  age: {type: 'Number'},
+  city: {type: 'String'},
+  pokemons: [Number]
+});
 
-export class TrainerDAOMongoImpl implements  DAOInterface{
+const TrainerModel = model('Trainer', TrainerSchema);
+
+export class TrainerDAOMongoImpl implements  DAOInterface<TrainerDTO, string>{
   private trainerModel;
   constructor () {
     MongoConnection.connect();
-    const TrainerSchema = new Schema<TrainerDTO>({
-      name: {type: 'String'},
-      age: {type: 'Number'},
-      city: {type: 'String'},
-      pokemons: {type: 'Array', default: []}
-    });
-
-    const TrainerModel = model('Trainer', TrainerSchema);
-
     this.trainerModel = TrainerModel;
   }
   async getAll() {
@@ -31,7 +24,8 @@ export class TrainerDAOMongoImpl implements  DAOInterface{
 
   async getById(id: string) {
     const _id = new Types.ObjectId(id);
-    return await this.trainerModel.findOne({ _id });
+    const trainer = await this.trainerModel.findOne({ _id });
+    return {...trainer["_doc"]};
   }
 
   async save(trainer: TrainerDTO) {
@@ -50,5 +44,10 @@ export class TrainerDAOMongoImpl implements  DAOInterface{
     const _id = new Types.ObjectId(id);
     await this.trainerModel.deleteOne({_id});
     return true;
+  }
+
+  async addPokemon(id: string, pokemonId: number) {
+    const _id = new Types.ObjectId(id);
+    return await this.trainerModel.updateOne({ _id }, {$push: {pokemons: pokemonId}});
   }
 }

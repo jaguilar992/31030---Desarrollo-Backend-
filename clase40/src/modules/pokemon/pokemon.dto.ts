@@ -1,7 +1,8 @@
 export interface PokemonDTO {
   id: number;
   name: string;
-  tipo: string;
+  type: string;
   HP?: number;
-  imagen?: string;
+  image?: string;
+  _id?: string;
 }

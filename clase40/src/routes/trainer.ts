@@ -1,13 +1,13 @@
-const express = require("express");
-const TrainerRouter = express.Router();
-const {
+import { Router } from "express";
+const TrainerRouter = Router();
+import {
   addTrainer,
   getTrainerInfo,
   addPokemon,
-} = require("../controllers/trainer");
+} from "../controllers/trainer";
 
 TrainerRouter.post("/", addTrainer);
 TrainerRouter.get("/:id", getTrainerInfo);
 TrainerRouter.post("/:id/addPokemon", addPokemon);
 
-module.exports = TrainerRouter;
+export default TrainerRouter;
