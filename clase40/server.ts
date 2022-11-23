@@ -1,7 +1,10 @@
+import { MongoConnection } from "./src/database";
+
 const express = require("express");
 const cors = require("cors");
 const app = express();
 const { PORT=8080 } = require("./src/config")
+MongoConnection.connect();
 
 // Routers
 const PokemonRouter = require("./src/routes/pokemon");
@@ -27,6 +30,6 @@ const server =  app.listen(PORT, () => {
 
 server.on("error", (err) => {
   logger.err(err);
-})
+});
 
 module.exports = app;
