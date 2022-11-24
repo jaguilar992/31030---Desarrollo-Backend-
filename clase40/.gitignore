@@ -1,0 +1,7 @@
+# Evita que git trackee algun archivo, carpeta
+# o por extensiones
+.env
+node_modules
+dist
+.vscode
+package-lock.json

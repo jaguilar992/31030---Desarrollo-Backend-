@@ -48,6 +48,7 @@ export class TrainerDAOMongoImpl implements  DAOInterface<TrainerDTO, string>{
 
   async addPokemon(id: string, pokemonId: number) {
     const _id = new Types.ObjectId(id);
+    // Validar que exista el registro antes de actualizarlo
     return await this.trainerModel.updateOne({ _id }, {$push: {pokemons: pokemonId}});
   }
 }
