@@ -12,7 +12,7 @@ export async function addNewPokemon(req, res) {
     return;
   }
   const _result = await PokemonService.save({ id, name, type, HP });
-  res.json(_result);
+  res.status(201).json(_result);
 }
 
 export async function getPokemonById(req, res) {

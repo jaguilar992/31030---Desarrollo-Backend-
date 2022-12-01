@@ -1,0 +1,33 @@
+paths:
+  /pokemon:
+    post:
+      summary: Add a new pokemon
+      tags:
+        - Pokemon
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/requestBodies/NewPokemon'
+      responses:
+          201:
+            description: Pokemon created
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/Pokemon'
+    get:
+      summary: Gets all pokemons
+      tags:
+        - Pokemon
+      responses:
+        200:
+          description: All pokemons
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Pokemon'
+
