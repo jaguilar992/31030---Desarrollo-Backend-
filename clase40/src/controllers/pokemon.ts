@@ -2,7 +2,7 @@ import PokemonService from "../services/pokemon";
 
 export async function getAllPokemons(req, res) {
   const _result = await PokemonService.readAll();
-  res.json(_result);
+  res.status(200).json(_result);
 }
 
 export async function addNewPokemon(req, res) {
@@ -12,7 +12,7 @@ export async function addNewPokemon(req, res) {
     return;
   }
   const _result = await PokemonService.save({ id, name, type, HP });
-  res.json(_result);
+  res.status(201).json(_result);
 }
 
 export async function getPokemonById(req, res) {
@@ -24,8 +24,9 @@ export async function getPokemonById(req, res) {
   const _result = await PokemonService.getById(id);
   if (!_result) {
     res.status(404).json({ mensaje: "Pokemon no encontrado" });
+    return ;
   }
-  res.json(_result);
+  res.status(200).json(_result);
 }
 
 export async function updatePokemonById(req, res) {

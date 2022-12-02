@@ -13,6 +13,15 @@ import TrainerRouter from "./src/routes/trainer";
 import logger from "./src/logs/logger";
 import {hbs} from "./src/views/config";
 
+import swaggerUi from "swagger-ui-express";
+import swaggerDoc from "swagger-jsdoc";
+import {SwaggerOptions} from "./src/swagger.config";
+
+const specs = swaggerDoc(SwaggerOptions);
+
+
+app.use("/api/docs", swaggerUi.serve, swaggerUi.setup(specs));
+
 app.engine("hbs", hbs.engine);
 app.set("view engine", "hbs");
 app.set("views", "./src/views/");

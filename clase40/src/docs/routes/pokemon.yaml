@@ -1,0 +1,55 @@
+paths:
+  /pokemon:
+    post:
+      summary: Add a new pokemon
+      tags:
+        - Pokemon
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/requestBodies/NewPokemon"
+      responses:
+        201:
+          description: Pokemon has been created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pokemon"
+    get:
+      summary: Leer todos los pokemons
+      tags:
+        - Pokemon
+      responses:
+        200:
+          description: All pokemons
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Pokemon"
+  /pokemon/{id}:
+    get:
+      summary: Get pokemon by id
+      tags:
+        - Pokemon
+      parameters:
+        - name: id
+          in: path
+          description: Pokemon's id 
+          required: true
+          type: number
+      responses:
+        200:
+          description: Here is your pokemon
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pokemon"
+        404:
+          description: Pokemon not found
+
+    # put:
+  # /trainer:
