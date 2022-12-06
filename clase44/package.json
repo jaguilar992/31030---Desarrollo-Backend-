@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "clase44",
+  "version": "1.0.0",
+  "main": "contenedor.js",
+  "type": "module",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

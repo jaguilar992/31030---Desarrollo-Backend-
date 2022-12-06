@@ -1,0 +1,21 @@
+type Trainer {
+  id: ID!
+  name: String
+  city: String
+}
+
+input TrainerInput {
+  name: String
+  city: String
+}
+
+type Query {
+  getTrainer(id: ID!): Trainer
+  getTrainers(campo: String, valor: String): [Trainer]
+}
+
+type Mutation {
+  createTrainer(datos: TrainerInput): Trainer
+  updateTrainer(id: ID!, datos: TrainerInput): Trainer
+  deleteTrainer(id: ID!): Trainer
+}
