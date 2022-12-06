@@ -1,5 +1,6 @@
 import express from "express";
 const app = express();
+import cors from "cors";
 
 import { graphqlHTTP } from "express-graphql";
 import { buildSchema } from "graphql";
@@ -85,7 +86,7 @@ function updateTrainer ({id, datos}) {
     throw new Error('Trainer not found')
   }
   const updatedTrainer = new Trainer(id, datos);
-  trainersContainer[id] = updateTrainer;
+  trainersContainer[id] = updatedTrainer;
   return updatedTrainer
 }
 
@@ -98,6 +99,7 @@ function deleteTrainer({id}) {
   return deletedTrainer;
 }
 
+app.use(cors());
 app.use("/graphql", graphqlHTTP({
   schema,
   rootValue: {

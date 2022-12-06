@@ -1,0 +1,23 @@
+# mutation {
+#   createTrainer(datos:{
+#     name:"Brock",
+#     city:"No",
+#   }) {
+#     id, name, city
+#   }
+# }
+
+# query {
+#   getTrainer(id:"db0fb82fdd3b78666f5d") {
+#     name, city
+#   }
+#   getTrainers{name, id}
+# }
+
+# mutation {
+#   updateTrainer(id:"eade55e1b2c46e34e7eb", datos:{
+#     name:"Antonio", city:"Tegucigalpa"
+#   }) {
+#     id, name, city
+#   }
+# }
