@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokemon</title>
+  {{ style('style') }}
+</head>
+<body>
+  <section>
+    <h1>Pokemons: </h1>
+    <ul>
+      @each(pokemon in pokemons)
+      <li>
+        Id: {{ pokemon.id }} Nombre: {{ pokemon.name }} Tipo: {{ pokemon.type }} <br>
+      </li>
+      @endeach
+      </ul> 
+  </section>
+</body>
+</html>
