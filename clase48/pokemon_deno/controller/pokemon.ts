@@ -1,4 +1,6 @@
 import { helpers } from "../deps.ts";
+import { PokemonCollection } from "../database/index.ts";
+import { Pokemon } from "../schemas/index.ts";
 
 const pokemons = [
   {
@@ -16,24 +18,34 @@ const pokemons = [
   }
 ];
 
-export function getPokemons(ctx) {
-  ctx.response.body = pokemons;
+export async function getPokemons(ctx) {
+  const _pokemons = await PokemonCollection.find({}).toArray();
+  ctx.response.body = _pokemons;
 }
 
 export async function createPokemon(ctx) {
   const body = await ctx.request.body().value;
   if (body && body?.name && body?.type && body?.id) {
-    pokemons.push(body);
+    // pokemons.push(body);
+    const pokemon: Pokemon = {
+      id: body.id,
+      name: body.name,
+      type: body.type
+    }
+    const resp = await PokemonCollection.insertOne(pokemon);
     ctx.response.status = 201;
-    ctx.response.body = body;
+    ctx.response.body = {
+      ...pokemon,
+      _id: resp
+    };
+    // ctx.response.body = pokemon;
   }
 }
 
-export function getPokemonById(ctx){
+export async function getPokemonById(ctx){
   let id = helpers.getQuery(ctx, { mergeParams: true }).id;
   id = parseInt(id);
-  console.log(id);
-  const pokemon = pokemons.find(p => p.id === id);
+  const pokemon = await PokemonCollection.findOne({id});
   if (pokemon) {
     ctx.response.body = pokemon;
   } else 
@@ -44,31 +56,31 @@ export async function updatePokemonById(ctx){
   let id = helpers.getQuery(ctx, { mergeParams: true }).id;
   id = parseInt(id);
   const body = await ctx.request.body().value;
-  if (body && body?.name && body?.type && body?.id) {
-    const pokemon = pokemons.find(p => p.id === id);
-    if (pokemon) {
-      pokemon.name = body.name;
-      pokemon.type = body.type;
-      pokemon.id = body.id;
-    }
-    ctx.response.status = 201;
-    ctx.response.body = body;
+  if (body && body?.name && body?.type) {
+    await PokemonCollection.updateOne({id}, {
+      $set: {
+        name: body.name,
+        type: body.type,
+      }
+    });
+    const pokemon = await PokemonCollection.findOne({id});
+    ctx.response.status = 200;
+    ctx.response.body = pokemon;
     return ;
-  }
-  ctx.response.status = 404;
+  } else 
+    ctx.response.body = {
+      error: true,
+      message: "Invalid body: name, type are required"
+    }
 }
 
 export function deletePokemonById(ctx){
   let id = helpers.getQuery(ctx, { mergeParams: true }).id;
   id = parseInt(id);
-  const pokemon = pokemons.find(p => p.id === id);
-  if (pokemon) {
-    pokemons.splice(pokemons.indexOf(pokemon), 1);
-    ctx.response.status = 204;
-    // ctx.response.body = {
-    //   message: "Pokemon deleted"
-    // };
-    return ;
-  }
-  ctx.response.status = 404;
+  PokemonCollection.deleteOne({id});    
+  ctx.response.status = 200;
+  ctx.response.body = {
+    message: "Pokemon deleted"
+  };
+  return ;
 }
